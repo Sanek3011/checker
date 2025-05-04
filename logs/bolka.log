@@ -1,0 +1,6799 @@
+2025-05-05 01:14:49 INFO  org.example.App - Starting App using Java 21.0.6 with PID 55346 (/Users/alex/Desktop/java/репозитории/проекты/checker/target/classes started by alex in /Users/alex/Desktop/java/репозитории/проекты/checker)
+2025-05-05 01:14:49 INFO  org.example.App - No active profile set, falling back to 1 default profile: "default"
+2025-05-05 01:14:49 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-05 01:14:49 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 2 JPA repository interfaces.
+2025-05-05 01:14:49 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-05 01:14:50 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-05-05 01:14:50 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-05-05 01:14:50 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-05 01:14:50 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-05 01:14:50 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7db40fd5
+2025-05-05 01:14:50 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-05 01:14:50 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-05 01:14:50 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-05 01:14:50 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-05 01:14:50 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-05-05 01:14:51 INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2025-05-05 01:14:51 INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2025-05-05 01:14:51 INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2025-05-05 01:14:51 INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2025-05-05 01:14:51 INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2025-05-05 01:14:51 INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2025-05-05 01:14:51 INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2025-05-05 01:14:51 INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@58581ab6
+2025-05-05 01:14:51 INFO  o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2025-05-05 01:14:51 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2025-05-05 01:14:51 INFO  org.example.App - Started App in 2.359 seconds (process running for 2.589)
+2025-05-05 01:14:51 INFO  org.example.service.ApiTakerService - Начался опрос api 01:14:51.652431
+2025-05-05 01:14:53 INFO  org.example.service.ApiTakerService - Опросился 1 сервер
+2025-05-05 01:14:53 INFO  org.example.service.ApiTakerService - Опросился 2 сервер
+2025-05-05 01:14:54 INFO  org.example.service.ApiTakerService - Опросился 3 сервер
+2025-05-05 01:14:55 INFO  org.example.service.ApiTakerService - Опросился 4 сервер
+2025-05-05 01:14:56 INFO  org.example.service.ApiTakerService - Опросился 5 сервер
+2025-05-05 01:14:56 INFO  org.example.service.ApiTakerService - Опросился 6 сервер
+2025-05-05 01:14:57 INFO  org.example.service.ApiTakerService - Опросился 7 сервер
+2025-05-05 01:14:58 INFO  org.example.service.ApiTakerService - Опросился 8 сервер
+2025-05-05 01:14:58 INFO  org.example.service.ApiTakerService - Опросился 9 сервер
+2025-05-05 01:14:59 INFO  org.example.service.ApiTakerService - Опросился 10 сервер
+2025-05-05 01:15:00 INFO  org.example.service.ApiTakerService - Опросился 11 сервер
+2025-05-05 01:15:00 INFO  org.example.service.ApiTakerService - Опросился 12 сервер
+2025-05-05 01:15:01 INFO  org.example.service.ApiTakerService - Опросился 13 сервер
+2025-05-05 01:15:01 INFO  org.example.service.ApiTakerService - Опросился 14 сервер
+2025-05-05 01:15:02 INFO  org.example.service.ApiTakerService - Опросился 15 сервер
+2025-05-05 01:15:03 INFO  org.example.service.ApiTakerService - Опросился 16 сервер
+2025-05-05 01:15:03 INFO  org.example.service.ApiTakerService - Опросился 17 сервер
+2025-05-05 01:15:04 INFO  org.example.service.ApiTakerService - Опросился 18 сервер
+2025-05-05 01:15:05 INFO  org.example.service.ApiTakerService - Опросился 19 сервер
+2025-05-05 01:15:05 INFO  org.example.service.ApiTakerService - Опросился 20 сервер
+2025-05-05 01:15:06 INFO  org.example.service.ApiTakerService - Опросился 21 сервер
+2025-05-05 01:15:07 INFO  org.example.service.ApiTakerService - Опросился 22 сервер
+2025-05-05 01:15:07 INFO  org.example.service.ApiTakerService - Опросился 23 сервер
+2025-05-05 01:15:08 INFO  org.example.service.ApiTakerService - Опросился 24 сервер
+2025-05-05 01:15:09 INFO  org.example.service.ApiTakerService - Опросился 25 сервер
+2025-05-05 01:15:09 INFO  org.example.service.ApiTakerService - Опросился 26 сервер
+2025-05-05 01:15:10 INFO  org.example.service.ApiTakerService - Опросился 27 сервер
+2025-05-05 01:15:11 INFO  org.example.service.ApiTakerService - Опросился 28 сервер
+2025-05-05 01:15:11 INFO  org.example.service.ApiTakerService - Опросился 29 сервер
+2025-05-05 01:15:12 INFO  org.example.service.ApiTakerService - Опросился 30 сервер
+2025-05-05 01:15:13 INFO  org.example.service.ApiTakerService - Опросился 31 сервер
+2025-05-05 01:15:13 INFO  org.example.service.ApiTakerService - Опрос api успешно завершен 01:15:13.249928
+2025-05-05 01:19:33 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-05-05 01:19:33 INFO  o.s.s.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+2025-05-05 01:19:33 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2025-05-05 01:19:33 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-05-05 01:19:33 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2025-05-05 01:19:33 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-05 01:19:33 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-05-05 01:19:33 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-05-05 01:19:34 INFO  org.example.App - Starting App using Java 21.0.6 with PID 55545 (/Users/alex/Desktop/java/репозитории/проекты/checker/target/classes started by alex in /Users/alex/Desktop/java/репозитории/проекты/checker)
+2025-05-05 01:19:34 INFO  org.example.App - No active profile set, falling back to 1 default profile: "default"
+2025-05-05 01:19:35 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-05 01:19:35 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28 ms. Found 2 JPA repository interfaces.
+2025-05-05 01:19:35 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-05 01:19:35 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-05-05 01:19:35 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-05-05 01:19:35 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-05 01:19:35 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-05 01:19:35 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5b5f9003
+2025-05-05 01:19:35 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-05 01:19:35 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-05 01:19:35 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-05 01:19:35 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-05 01:19:35 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-05-05 01:19:37 INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2025-05-05 01:19:37 INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2025-05-05 01:19:37 INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2025-05-05 01:19:37 INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2025-05-05 01:19:37 INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2025-05-05 01:19:37 INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2025-05-05 01:19:37 INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2025-05-05 01:19:37 INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@453ca7f
+2025-05-05 01:19:37 INFO  o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2025-05-05 01:19:37 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2025-05-05 01:19:37 INFO  org.example.App - Started App in 2.63 seconds (process running for 2.85)
+2025-05-05 01:19:37 INFO  org.example.service.ApiTakerService - Начался опрос api 01:19:37.027023
+2025-05-05 01:19:37 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-05-05 01:19:38 INFO  org.example.service.ApiTakerService - Опросился 1 сервер
+2025-05-05 01:19:39 INFO  org.example.service.ApiTakerService - Опросился 2 сервер
+2025-05-05 01:19:44 INFO  org.example.App - Starting App using Java 21.0.6 with PID 55550 (/Users/alex/Desktop/java/репозитории/проекты/checker/target/classes started by alex in /Users/alex/Desktop/java/репозитории/проекты/checker)
+2025-05-05 01:19:44 INFO  org.example.App - No active profile set, falling back to 1 default profile: "default"
+2025-05-05 01:19:45 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-05 01:19:45 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 2 JPA repository interfaces.
+2025-05-05 01:19:45 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-05 01:19:45 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-05-05 01:19:45 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-05-05 01:19:45 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-05 01:19:45 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-05 01:19:45 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@38cfecf3
+2025-05-05 01:19:45 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-05 01:19:45 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-05 01:19:45 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-05 01:19:45 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-05 01:19:46 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-05-05 01:19:46 INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2025-05-05 01:19:46 INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2025-05-05 01:19:46 INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2025-05-05 01:19:46 INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2025-05-05 01:19:46 INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2025-05-05 01:19:46 INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2025-05-05 01:19:46 INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2025-05-05 01:19:46 INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@5e147821
+2025-05-05 01:19:46 INFO  o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2025-05-05 01:19:46 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2025-05-05 01:19:46 INFO  org.example.App - Started App in 2.293 seconds (process running for 2.728)
+2025-05-05 01:19:46 INFO  org.example.service.ApiTakerService - Начался опрос api 01:19:46.938390
+2025-05-05 01:19:48 INFO  org.example.service.ApiTakerService - Опросился 1 сервер
+2025-05-05 01:19:48 INFO  org.example.service.ApiTakerService - Опросился 2 сервер
+2025-05-05 01:19:49 INFO  org.example.service.ApiTakerService - Опросился 3 сервер
+2025-05-05 01:19:50 INFO  org.example.service.ApiTakerService - Опросился 4 сервер
+2025-05-05 01:19:50 INFO  org.example.service.ApiTakerService - Опросился 5 сервер
+2025-05-05 01:19:51 INFO  org.example.service.ApiTakerService - Опросился 6 сервер
+2025-05-05 01:19:52 INFO  org.example.service.ApiTakerService - Опросился 7 сервер
+2025-05-05 01:19:53 INFO  org.example.service.ApiTakerService - Опросился 8 сервер
+2025-05-05 01:19:53 INFO  org.example.service.ApiTakerService - Опросился 9 сервер
+2025-05-05 01:19:54 INFO  org.example.service.ApiTakerService - Опросился 10 сервер
+2025-05-05 01:19:55 INFO  org.example.service.ApiTakerService - Опросился 11 сервер
+2025-05-05 01:19:55 INFO  org.example.service.ApiTakerService - Опросился 12 сервер
+2025-05-05 01:19:56 INFO  org.example.service.ApiTakerService - Опросился 13 сервер
+2025-05-05 01:19:56 INFO  org.example.service.ApiTakerService - Опросился 14 сервер
+2025-05-05 01:19:57 INFO  org.example.service.ApiTakerService - Опросился 15 сервер
+2025-05-05 01:19:58 INFO  org.example.service.ApiTakerService - Опросился 16 сервер
+2025-05-05 01:19:58 INFO  org.example.service.ApiTakerService - Опросился 17 сервер
+2025-05-05 01:19:59 INFO  org.example.service.ApiTakerService - Опросился 18 сервер
+2025-05-05 01:19:59 INFO  org.example.service.ApiTakerService - Опросился 19 сервер
+2025-05-05 01:20:00 INFO  org.example.service.ApiTakerService - Опросился 20 сервер
+2025-05-05 01:20:01 INFO  org.example.service.ApiTakerService - Опросился 21 сервер
+2025-05-05 01:20:01 INFO  org.example.service.ApiTakerService - Опросился 22 сервер
+2025-05-05 01:20:02 INFO  org.example.service.ApiTakerService - Опросился 23 сервер
+2025-05-05 01:20:16 INFO  org.example.service.ApiTakerService - Опросился 24 сервер
+2025-05-05 01:20:17 INFO  org.example.service.ApiTakerService - Опросился 25 сервер
+2025-05-05 01:20:18 INFO  org.example.service.ApiTakerService - Опросился 26 сервер
+2025-05-05 01:20:18 INFO  org.example.service.ApiTakerService - Опросился 27 сервер
+2025-05-05 01:20:19 INFO  org.example.service.ApiTakerService - Опросился 28 сервер
+2025-05-05 01:20:20 INFO  org.example.service.ApiTakerService - Опросился 29 сервер
+2025-05-05 01:20:20 INFO  org.example.service.ApiTakerService - Опросился 30 сервер
+2025-05-05 01:20:21 INFO  org.example.service.ApiTakerService - Опросился 31 сервер
+2025-05-05 01:20:21 INFO  org.example.service.ApiTakerService - Опрос api успешно завершен 01:20:21.537708
+2025-05-05 01:21:40 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50s125ms).
+2025-05-05 01:23:05 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53s103ms).
+2025-05-05 01:24:02 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=57s143ms).
+2025-05-05 01:25:27 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m24s924ms).
+2025-05-05 01:25:27 ERROR o.t.t.u.DefaultBotSession - Remote host terminated the handshake
+javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake
+	at java.base/sun.security.ssl.SSLSocketImpl.handleEOF(SSLSocketImpl.java:1714)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1514)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1421)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:436)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:384)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:249)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:188)
+Caused by: java.io.EOFException: SSL peer shut down incorrectly
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:494)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:483)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:160)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:111)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1506)
+	... 16 common frames omitted
+2025-05-05 01:25:27 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-05-05 01:25:27 INFO  o.s.s.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+2025-05-05 01:25:27 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2025-05-05 01:25:27 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-05-05 01:25:27 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2025-05-05 01:25:27 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-05 01:25:27 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-05-05 01:25:27 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-05-05 01:25:34 INFO  org.example.App - Starting App using Java 21.0.6 with PID 55632 (/Users/alex/Desktop/java/репозитории/проекты/checker/target/classes started by alex in /Users/alex/Desktop/java/репозитории/проекты/checker)
+2025-05-05 01:25:34 INFO  org.example.App - No active profile set, falling back to 1 default profile: "default"
+2025-05-05 01:25:34 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-05 01:25:34 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 2 JPA repository interfaces.
+2025-05-05 01:25:34 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-05 01:25:34 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-05-05 01:25:34 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-05-05 01:25:34 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-05 01:25:34 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-05 01:25:35 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@11c78080
+2025-05-05 01:25:35 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-05 01:25:35 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-05 01:25:35 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-05 01:25:35 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-05 01:25:35 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-05-05 01:25:36 INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2025-05-05 01:25:36 INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2025-05-05 01:25:36 INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2025-05-05 01:25:36 INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2025-05-05 01:25:36 INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2025-05-05 01:25:36 INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2025-05-05 01:25:36 INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2025-05-05 01:25:36 INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@11736ebc
+2025-05-05 01:25:36 INFO  o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2025-05-05 01:25:36 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2025-05-05 01:25:36 INFO  org.example.App - Started App in 2.304 seconds (process running for 2.524)
+2025-05-05 01:25:36 INFO  org.example.service.ApiTakerService - Начался опрос api 01:25:36.386243
+2025-05-05 01:25:37 INFO  org.example.service.ApiTakerService - Опросился 1 сервер
+2025-05-05 01:25:38 INFO  org.example.service.ApiTakerService - Опросился 2 сервер
+2025-05-05 01:25:38 INFO  org.example.service.ApiTakerService - Опросился 3 сервер
+2025-05-05 01:25:39 INFO  org.example.service.ApiTakerService - Опросился 4 сервер
+2025-05-05 01:25:40 INFO  org.example.service.ApiTakerService - Опросился 5 сервер
+2025-05-05 01:25:40 INFO  org.example.service.ApiTakerService - Опросился 6 сервер
+2025-05-05 01:25:41 INFO  org.example.service.ApiTakerService - Опросился 7 сервер
+2025-05-05 01:25:42 INFO  org.example.service.ApiTakerService - Опросился 8 сервер
+2025-05-05 01:25:42 INFO  org.example.service.ApiTakerService - Опросился 9 сервер
+2025-05-05 01:25:43 INFO  org.example.service.ApiTakerService - Опросился 10 сервер
+2025-05-05 01:25:44 INFO  org.example.service.ApiTakerService - Опросился 11 сервер
+2025-05-05 01:25:44 INFO  org.example.service.ApiTakerService - Опросился 12 сервер
+2025-05-05 01:25:45 INFO  org.example.service.ApiTakerService - Опросился 13 сервер
+2025-05-05 01:25:45 INFO  org.example.service.ApiTakerService - Опросился 14 сервер
+2025-05-05 01:25:46 INFO  org.example.service.ApiTakerService - Опросился 15 сервер
+2025-05-05 01:25:47 INFO  org.example.service.ApiTakerService - Опросился 16 сервер
+2025-05-05 01:25:47 INFO  org.example.service.ApiTakerService - Опросился 17 сервер
+2025-05-05 01:25:48 INFO  org.example.service.ApiTakerService - Опросился 18 сервер
+2025-05-05 01:25:49 INFO  org.example.service.ApiTakerService - Опросился 19 сервер
+2025-05-05 01:25:50 INFO  org.example.service.ApiTakerService - Опросился 20 сервер
+2025-05-05 01:25:50 INFO  org.example.service.ApiTakerService - Опросился 21 сервер
+2025-05-05 01:25:51 INFO  org.example.service.ApiTakerService - Опросился 22 сервер
+2025-05-05 01:25:52 INFO  org.example.service.ApiTakerService - Опросился 23 сервер
+2025-05-05 01:25:53 INFO  org.example.service.ApiTakerService - Опросился 24 сервер
+2025-05-05 01:25:54 INFO  org.example.service.ApiTakerService - Опросился 25 сервер
+2025-05-05 01:25:55 INFO  org.example.service.ApiTakerService - Опросился 26 сервер
+2025-05-05 01:25:56 INFO  org.example.service.ApiTakerService - Опросился 27 сервер
+2025-05-05 01:25:56 INFO  org.example.service.ApiTakerService - Опросился 28 сервер
+2025-05-05 01:25:57 INFO  org.example.service.ApiTakerService - Опросился 29 сервер
+2025-05-05 01:25:58 INFO  org.example.service.ApiTakerService - Опросился 30 сервер
+2025-05-05 01:25:59 INFO  org.example.service.ApiTakerService - Опросился 31 сервер
+2025-05-05 01:25:59 INFO  org.example.service.ApiTakerService - Опрос api успешно завершен 01:25:59.191566
+2025-05-05 01:32:52 WARN  org.example.controller.TGBot - Не удалось выполнить SendMessage(chatId=828575026, messageThreadId=null, text=Сервер: 5
+Lue_Loe
+
+Business:
+id: 296 Закусочная 
+
+
+Сервер: 5
+Lofay_Salvatore
+
+Business:
+id: 185 Ларек с уличной едой 
+
+
+House:
+id: 306          id: 1496         id: 1497        
+id: 1498         id: 1499         id: 1500        
+id: 1501         id: 1502         id: 1503        
+
+
+Сервер: 5
+Cany_Castrello
+
+Business:
+id: 271 Закусочная 
+
+
+House:
+id: 837          
+
+Сервер: 5
+Aleks_Ment
+
+Business:
+id: 440 Электрокомпания 
+
+
+House:
+id: 27           id: 128          id: 222         
+id: 348          id: 353          id: 453         
+id: 702          id: 711          id: 948         
+id: 992          id: 993          id: 1208        
+id: 1375         id: 1466         id: 1524        
+
+
+Сервер: 5
+Paolo_Marino
+
+Business:
+id: 114 Закусочная 
+
+
+House:
+id: 622          id: 1245         
+
+Сервер: 5
+Shadow_Buzz
+
+Business:
+id: 216 Ларек с уличной едой 
+
+
+House:
+id: 440          id: 760          id: 1298        
+
+
+Сервер: 5
+Kachan_Jonson
+
+Business:
+id: 184 Ларек с уличной едой 
+
+
+House:
+id: 1337         
+
+Сервер: 5
+Lucas_Deluxe
+
+Business:
+id: 298 Магазин 24/7 
+
+
+Сервер: 5
+Page_Mortan
+
+Business:
+id: 201 Ларек с уличной едой 
+
+
+House:
+id: 1040         
+
+Сервер: 5
+Jhonathan_King
+
+Business:
+id: 58  Аренда транспорта 
+
+
+House:
+id: 242          
+
+Сервер: 5
+William_Wright
+
+Business:
+id: 175 Магазин 24/7 
+
+
+House:
+id: 1305         
+
+Сервер: 5
+Barry_Legenda
+
+Business:
+id: 171 Закусочная 
+
+
+House:
+id: 226          id: 1095         id: 1098        
+id: 1099         id: 1100         id: 1396        
+id: 1434         id: 1435         id: 1436        
+id: 1441         id: 1445         id: 1446        
+id: 1447         id: 1566         id: 1567        
+
+
+Сервер: 5
+Kane_Grand
+
+Business:
+id: 78  Закусочная 
+
+
+Сервер: 5
+Serega_Bidenko
+
+Business:
+id: 105 Магазин 24/7 
+
+
+House:
+id: 1361         id: 1671         
+
+Сервер: 5
+Paracetamol_Damnedz
+
+Business:
+id: 23  АЗС/Магазин механики 
+
+
+House:
+id: 203          id: 721          id: 1491        
+id: 1568         id: 1569         
+
+Сервер: 5
+Xyrman_Mandarinov
+
+Business:
+id: 256 Аренда сельхоз техники 
+
+
+House:
+id: 307          id: 641          id: 687         
+id: 688          id: 1164         id: 1166        
+id: 1177         
+
+Сервер: 5
+John_Deen
+
+Business:
+id: 267 Ларек с уличной едой 
+
+
+Сервер: 5
+Kaguya_Shinomiya
+
+Business:
+id: 131 Телефонная компания ЛВ 
+
+
+House:
+id: 2            
+
+Сервер: 5
+Kuroko_Phantom
+
+Business:
+id: 348 Магазин 24/7 
+
+
+Сервер: 5
+Stewart_LaMonte
+
+Business:
+id: 169 Закусочная 
+
+
+House:
+id: 110          id: 111          id: 112         
+id: 113          id: 114          id: 115         
+id: 574          id: 594          id: 945         
+id: 1289         id: 1750         
+
+Сервер: 5
+Stiven_Wockeez
+
+Business:
+id: 358 Закусочная 
+
+
+House:
+id: 104          id: 107          id: 545         
+id: 994          id: 996          id: 1539        
+
+
+Сервер: 5
+Ernesto_Liberty
+
+Business:
+id: 305 Авто Сервис 
+
+
+Сервер: 5
+Alex_Chumak
+
+Business:
+id: 437 Киоск   
+
+
+House:
+id: 364          id: 366          id: 368         
+id: 369          id: 370          id: 371         
+id: 373          id: 433          id: 434         
+id: 1038         id: 1492         id: 1611        
+id: 1612         
+
+Сервер: 5
+Noah_Aenami
+
+Business:
+id: 294 Закусочная 
+
+
+House:
+id: 191          id: 192          id: 193         
+id: 194          id: 195          id: 196         
+id: 213          id: 499          id: 1543        
+id: 1581         
+
+Сервер: 5
+Decoded_Feedback
+
+Business:
+id: 178 Амуниция/Тир 
+
+
+House:
+id: 286          id: 1163         id: 1580        
+
+
+Сервер: 5
+Raymond_Infamous
+
+Business:
+id: 288 АЗС/Магазин механики 
+
+
+House:
+id: 557          id: 1374         id: 1658        
+id: 1698         id: 1701         id: 1702        
+id: 1703         id: 1704         id: 1764        
+
+
+Сервер: 5
+Ryu_Oba
+
+Business:
+id: 251 АЗС/Магазин механики 
+
+
+House:
+id: 50           id: 51           id: 675         
+id: 958          id: 972          id: 1341        
+id: 1344         id: 1547         id: 1606        
+id: 1708         id: 1710         
+
+Сервер: 5
+Tommy_Conlin
+
+Business:
+id: 314 Авто Сервис 
+
+
+House:
+id: 1368         
+
+Сервер: 5
+Nastusha_Hohotao
+
+Business:
+id: 170 Закусочная 
+
+
+House:
+id: 1246         id: 1259         id: 1274        
+id: 1276         id: 1278         
+
+Сервер: 5
+Sanctus_Spiritus
+
+Business:
+id: 259 Закусочная 
+
+
+House:
+id: 719          id: 1679         
+
+Сервер: 5
+Sub_Zeroo
+
+Business:
+id: 293 Ларек с уличной едой 
+
+
+Сервер: 5
+Shark_Erikson
+
+Business:
+id: 109 Закусочная 
+
+
+House:
+id: 755          
+
+Сервер: 5
+Marco_Grava
+
+Business:
+id: 0   Амуниция/Тир 
+
+
+House:
+id: 13           id: 295          id: 296         
+id: 461          id: 476          id: 644         
+id: 651          id: 653          
+
+Сервер: 5
+Orange_Juice
+
+Business:
+id: 49  Закусочная 
+
+
+House:
+id: 1661         
+
+Сервер: 5
+Kiss_Brooks
+
+Business:
+id: 344 Нефтевышка 
+
+
+House:
+id: 516          
+
+Сервер: 5
+Shidzho_Okuyama
+
+Business:
+id: 343 Нефтевышка 
+
+
+House:
+id: 227          id: 695          id: 701         
+id: 703          id: 756          id: 919         
+id: 1296         id: 1312         id: 1360        
+id: 1464         id: 1559         id: 1725        
+
+
+Сервер: 5
+Yuki_Aenami
+
+Business:
+id: 352 Магазин аксессуаров 
+
+
+House:
+id: 1190         id: 1507         id: 1508        
+id: 1509         id: 1510         
+
+Сервер: 5
+James_Mariachi
+
+Business:
+id: 441 Электрокомпания 
+
+
+House:
+id: 52           id: 316          id: 345         
+id: 346          id: 351          id: 352         
+id: 357          id: 514          id: 1452        
+id: 1678         id: 1732         
+
+Сервер: 5
+Pakito_LaMorte
+
+Business:
+id: 150 Отель   
+
+
+Сервер: 5
+Nata_Sharova
+
+Business:
+id: 189 Ларек с уличной едой 
+
+
+House:
+id: 685          id: 709          id: 979         
+id: 1304         id: 1415         id: 1672        
+
+
+Сервер: 5
+Grand_Blumber
+
+Business:
+id: 191 Ларек с уличной едой 
+
+
+House:
+id: 458          id: 459          id: 487         
+id: 488          id: 1765         
+
+Сервер: 5
+Anthoni_Capone
+
+Business:
+id: 353 Магазин 24/7 
+
+
+House:
+id: 1176         id: 1769         
+
+Сервер: 5
+Scandal_Arcteryx
+
+Business:
+id: 219 Ларек с уличной едой 
+
+
+House:
+id: 1308         
+
+Сервер: 5
+Akio_Tagashiva
+
+Business:
+id: 30  АЗС/Магазин механики 
+
+
+House:
+id: 318          id: 319          id: 320         
+id: 325          id: 1564         id: 1645        
+
+
+Сервер: 5
+Stitch_Letov
+
+Business:
+id: 9   Магазин 24/7 
+
+
+House:
+id: 255          id: 263          id: 334         
+id: 421          id: 423          id: 624         
+id: 854          id: 876          id: 1019        
+id: 1036         id: 1064         id: 1073        
+id: 1085         id: 1314         id: 1706        
+
+
+Сервер: 5
+Caymon_Crystal
+
+Business:
+id: 356 Бар     
+
+
+House:
+id: 1239         
+
+Сервер: 5
+Vadus_Morelli
+
+Business:
+id: 249 АЗС/Магазин механики 
+
+
+Сервер: 5
+Hightower_Loranved
+
+Business:
+id: 250 АЗС/Магазин механики 
+
+
+Сервер: 5
+Anton_Porshe
+
+Business:
+id: 434 Киоск   
+
+
+House:
+id: 438          
+
+Сервер: 5
+Nikky_Death
+
+Business:
+id: 36  Закусочная 
+
+
+House:
+id: 6            id: 317          id: 347         
+id: 349          id: 350          id: 356         
+id: 1433         
+
+Сервер: 5
+Ruslan_White
+
+Business:
+id: 10  Магазин 24/7 
+
+
+Сервер: 5
+Vitaliy_Gess
+
+Business:
+id: 39  Аренда транспорта 
+
+
+House:
+id: 1680         id: 1752         
+
+Сервер: 5
+Jessie_Vatutin
+
+Business:
+id: 300 Отель   
+
+
+Сервер: 5
+Max_Arab
+
+Business:
+id: 217 Ларек с уличной едой 
+
+
+Сервер: 5
+Andre_Boroda
+
+Business:
+id: 186 Ларек с уличной едой 
+
+
+Сервер: 5
+Sanya_Turbina
+
+Business:
+id: 37  Закусочная 
+
+
+Сервер: 5
+Yoshiro_Ookami
+
+Business:
+id: 50  Закусочная 
+
+
+House:
+id: 181          id: 182          id: 183         
+id: 298          id: 302          id: 1411        
+
+
+Сервер: 5
+Jesus_Nachile
+
+Business:
+id: 24  АЗС/Магазин механики 
+
+
+Сервер: 5
+Jane_Ruiz
+
+Business:
+id: 38  Закусочная 
+
+
+House:
+id: 0            id: 395          id: 511         
+id: 746          id: 878          id: 1413        
+id: 1416         id: 1494         
+
+Сервер: 5
+Vlad_Tornerro
+
+Business:
+id: 247 Нефтевышка 
+
+
+House:
+id: 1061         
+
+Сервер: 5
+Moksy_Diez
+
+Business:
+id: 82  Закусочная 
+
+
+Сервер: 5
+Moore_Deluxe
+
+Business:
+id: 176 Магазин 24/7 
+
+
+House:
+id: 283          id: 519          
+
+Сервер: 5
+Dmitriy_Nyashka
+
+Business:
+id: 52  Аренда транспорта 
+
+
+House:
+id: 256          id: 902          
+
+Сервер: 5
+Epson_Brooks
+
+Business:
+id: 167 Закусочная 
+
+
+House:
+id: 427          id: 1634         
+
+Сервер: 5
+Ivan_Hentaev
+
+Business:
+id: 209 Ларек с уличной едой 
+
+
+House:
+id: 926          id: 1114         
+
+Сервер: 5
+Bonny_Keiner
+
+Business:
+id: 142 Отель   
+
+
+Сервер: 5
+Omega_Black
+
+Business:
+id: 79  Закусочная 
+
+
+House:
+id: 463          id: 465          id: 478         
+id: 481          id: 482          id: 483         
+id: 492          id: 1773         
+
+, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null, linkPreviewOptions=null, replyParameters=null)
+2025-05-05 01:35:52 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-05-05 01:35:52 INFO  o.s.s.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+2025-05-05 01:35:52 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2025-05-05 01:35:52 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-05-05 01:35:52 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2025-05-05 01:35:52 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-05 01:35:52 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-05-05 01:35:52 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-05-05 01:35:54 INFO  org.example.App - Starting App using Java 21.0.6 with PID 55799 (/Users/alex/Desktop/java/репозитории/проекты/checker/target/classes started by alex in /Users/alex/Desktop/java/репозитории/проекты/checker)
+2025-05-05 01:35:54 INFO  org.example.App - No active profile set, falling back to 1 default profile: "default"
+2025-05-05 01:35:54 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-05 01:35:54 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21 ms. Found 2 JPA repository interfaces.
+2025-05-05 01:35:54 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-05 01:35:54 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-05-05 01:35:54 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-05-05 01:35:54 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-05 01:35:54 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-05 01:35:55 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@9fe720a
+2025-05-05 01:35:55 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-05 01:35:55 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-05 01:35:55 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-05 01:35:55 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-05 01:35:55 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-05-05 01:35:56 INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2025-05-05 01:35:56 INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2025-05-05 01:35:56 INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2025-05-05 01:35:56 INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2025-05-05 01:35:56 INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2025-05-05 01:35:56 INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2025-05-05 01:35:56 INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2025-05-05 01:35:56 INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@74bca236
+2025-05-05 01:35:56 INFO  o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2025-05-05 01:35:56 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2025-05-05 01:35:56 INFO  org.example.App - Started App in 2.7 seconds (process running for 2.89)
+2025-05-05 01:35:56 INFO  org.example.service.ApiTakerService - Начался опрос api 01:35:56.727167
+2025-05-05 01:35:58 INFO  org.example.service.ApiTakerService - Опросился 1 сервер
+2025-05-05 01:35:59 INFO  org.example.service.ApiTakerService - Опросился 2 сервер
+2025-05-05 01:36:00 INFO  org.example.service.ApiTakerService - Опросился 3 сервер
+2025-05-05 01:36:00 INFO  org.example.service.ApiTakerService - Опросился 4 сервер
+2025-05-05 01:36:01 INFO  org.example.service.ApiTakerService - Опросился 5 сервер
+2025-05-05 01:36:02 INFO  org.example.service.ApiTakerService - Опросился 6 сервер
+2025-05-05 01:36:03 INFO  org.example.service.ApiTakerService - Опросился 7 сервер
+2025-05-05 01:36:04 INFO  org.example.service.ApiTakerService - Опросился 8 сервер
+2025-05-05 01:36:05 INFO  org.example.service.ApiTakerService - Опросился 9 сервер
+2025-05-05 01:36:06 INFO  org.example.service.ApiTakerService - Опросился 10 сервер
+2025-05-05 01:36:06 INFO  org.example.service.ApiTakerService - Опросился 11 сервер
+2025-05-05 01:36:07 INFO  org.example.service.ApiTakerService - Опросился 12 сервер
+2025-05-05 01:36:08 INFO  org.example.service.ApiTakerService - Опросился 13 сервер
+2025-05-05 01:36:09 INFO  org.example.service.ApiTakerService - Опросился 14 сервер
+2025-05-05 01:36:09 INFO  org.example.service.ApiTakerService - Опросился 15 сервер
+2025-05-05 01:36:10 INFO  org.example.service.ApiTakerService - Опросился 16 сервер
+2025-05-05 01:36:11 INFO  org.example.service.ApiTakerService - Опросился 17 сервер
+2025-05-05 01:36:11 INFO  org.example.service.ApiTakerService - Опросился 18 сервер
+2025-05-05 01:36:12 INFO  org.example.service.ApiTakerService - Опросился 19 сервер
+2025-05-05 01:36:13 INFO  org.example.service.ApiTakerService - Опросился 20 сервер
+2025-05-05 01:36:14 INFO  org.example.service.ApiTakerService - Опросился 21 сервер
+2025-05-05 01:36:14 INFO  org.example.service.ApiTakerService - Опросился 22 сервер
+2025-05-05 01:36:15 INFO  org.example.service.ApiTakerService - Опросился 23 сервер
+2025-05-05 01:36:16 INFO  org.example.service.ApiTakerService - Опросился 24 сервер
+2025-05-05 01:36:16 INFO  org.example.service.ApiTakerService - Опросился 25 сервер
+2025-05-05 01:36:17 INFO  org.example.service.ApiTakerService - Опросился 26 сервер
+2025-05-05 01:36:18 INFO  org.example.service.ApiTakerService - Опросился 27 сервер
+2025-05-05 01:36:18 INFO  org.example.service.ApiTakerService - Опросился 28 сервер
+2025-05-05 01:36:19 INFO  org.example.service.ApiTakerService - Опросился 29 сервер
+2025-05-05 01:36:20 INFO  org.example.service.ApiTakerService - Опросился 30 сервер
+2025-05-05 01:36:21 INFO  org.example.service.ApiTakerService - Опросился 31 сервер
+2025-05-05 01:36:21 INFO  org.example.service.ApiTakerService - Опрос api успешно завершен 01:36:21.243548
+2025-05-05 01:36:22 WARN  org.example.controller.TGBot - Не удалось выполнить SendMessage(chatId=828575026, messageThreadId=null, text=Сервер: 5
+Lue_Loe
+
+Business:
+id: 296 Закусочная 
+
+
+Сервер: 5
+Lofay_Salvatore
+
+House:
+id: 306          id: 1496         id: 1497        
+id: 1498         id: 1499         id: 1500        
+id: 1501         id: 1502         id: 1503        
+
+
+Business:
+id: 185 Ларек с уличной едой 
+
+
+Сервер: 5
+Cany_Castrello
+
+House:
+id: 837          
+
+Business:
+id: 271 Закусочная 
+
+
+Сервер: 5
+Aleks_Ment
+
+House:
+id: 27           id: 128          id: 222         
+id: 348          id: 353          id: 453         
+id: 702          id: 711          id: 948         
+id: 992          id: 993          id: 1208        
+id: 1375         id: 1466         id: 1524        
+
+
+Business:
+id: 440 Электрокомпания 
+
+
+Сервер: 5
+Paolo_Marino
+
+House:
+id: 622          id: 1245         
+
+Business:
+id: 114 Закусочная 
+
+
+Сервер: 5
+Shadow_Buzz
+
+House:
+id: 440          id: 760          id: 1298        
+
+
+Business:
+id: 216 Ларек с уличной едой 
+
+
+Сервер: 5
+Kachan_Jonson
+
+House:
+id: 1337         
+
+Business:
+id: 184 Ларек с уличной едой 
+
+
+Сервер: 5
+Lucas_Deluxe
+
+Business:
+id: 298 Магазин 24/7 
+
+
+Сервер: 5
+Page_Mortan
+
+House:
+id: 1040         
+
+Business:
+id: 201 Ларек с уличной едой 
+
+
+Сервер: 5
+Jhonathan_King
+
+House:
+id: 242          
+
+Business:
+id: 58  Аренда транспорта 
+
+
+Сервер: 5
+William_Wright
+
+House:
+id: 1305         
+
+Business:
+id: 175 Магазин 24/7 
+
+
+Сервер: 5
+Barry_Legenda
+
+House:
+id: 226          id: 1095         id: 1098        
+id: 1099         id: 1100         id: 1396        
+id: 1434         id: 1435         id: 1436        
+id: 1441         id: 1445         id: 1446        
+id: 1447         id: 1566         id: 1567        
+
+
+Business:
+id: 171 Закусочная 
+
+
+Сервер: 5
+Kane_Grand
+
+Business:
+id: 78  Закусочная 
+
+
+Сервер: 5
+Serega_Bidenko
+
+House:
+id: 1361         id: 1671         
+
+Business:
+id: 105 Магазин 24/7 
+
+
+Сервер: 5
+Paracetamol_Damnedz
+
+House:
+id: 203          id: 721          id: 1491        
+id: 1568         id: 1569         
+
+Business:
+id: 23  АЗС/Магазин механики 
+
+
+Сервер: 5
+Xyrman_Mandarinov
+
+House:
+id: 307          id: 641          id: 687         
+id: 688          id: 1164         id: 1166        
+id: 1177         
+
+Business:
+id: 256 Аренда сельхоз техники 
+
+
+Сервер: 5
+John_Deen
+
+Business:
+id: 267 Ларек с уличной едой 
+
+
+Сервер: 5
+Kaguya_Shinomiya
+
+House:
+id: 2            
+
+Business:
+id: 131 Телефонная компания ЛВ 
+
+
+Сервер: 5
+Kuroko_Phantom
+
+Business:
+id: 348 Магазин 24/7 
+
+
+Сервер: 5
+Stewart_LaMonte
+
+House:
+id: 110          id: 111          id: 112         
+id: 113          id: 114          id: 115         
+id: 574          id: 594          id: 945         
+id: 1289         id: 1750         
+
+Business:
+id: 169 Закусочная 
+
+
+Сервер: 5
+Stiven_Wockeez
+
+House:
+id: 104          id: 107          id: 545         
+id: 994          id: 996          id: 1539        
+
+
+Business:
+id: 358 Закусочная 
+
+
+Сервер: 5
+Ernesto_Liberty
+
+Business:
+id: 305 Авто Сервис 
+
+
+Сервер: 5
+Alex_Chumak
+
+House:
+id: 364          id: 366          id: 368         
+id: 369          id: 370          id: 371         
+id: 373          id: 433          id: 434         
+id: 1038         id: 1492         id: 1611        
+id: 1612         
+
+Business:
+id: 437 Киоск   
+
+
+Сервер: 5
+Noah_Aenami
+
+House:
+id: 191          id: 192          id: 193         
+id: 194          id: 195          id: 196         
+id: 213          id: 499          id: 1543        
+id: 1581         
+
+Business:
+id: 294 Закусочная 
+
+
+Сервер: 5
+Decoded_Feedback
+
+House:
+id: 286          id: 1163         id: 1580        
+
+
+Business:
+id: 178 Амуниция/Тир 
+
+
+Сервер: 5
+Raymond_Infamous
+
+House:
+id: 557          id: 1374         id: 1658        
+id: 1698         id: 1701         id: 1702        
+id: 1703         id: 1704         id: 1764        
+
+
+Business:
+id: 288 АЗС/Магазин механики 
+
+
+Сервер: 5
+Ryu_Oba
+
+House:
+id: 50           id: 51           id: 675         
+id: 958          id: 972          id: 1341        
+id: 1344         id: 1547         id: 1606        
+id: 1708         id: 1710         
+
+Business:
+id: 251 АЗС/Магазин механики 
+
+
+Сервер: 5
+Tommy_Conlin
+
+House:
+id: 1368         
+
+Business:
+id: 314 Авто Сервис 
+
+
+Сервер: 5
+Nastusha_Hohotao
+
+House:
+id: 1246         id: 1259         id: 1274        
+id: 1276         id: 1278         
+
+Business:
+id: 170 Закусочная 
+
+
+Сервер: 5
+Sanctus_Spiritus
+
+House:
+id: 719          id: 1679         
+
+Business:
+id: 259 Закусочная 
+
+
+Сервер: 5
+Sub_Zeroo
+
+Business:
+id: 293 Ларек с уличной едой 
+
+
+Сервер: 5
+Shark_Erikson
+
+House:
+id: 755          
+
+Business:
+id: 109 Закусочная 
+
+
+Сервер: 5
+Marco_Grava
+
+House:
+id: 13           id: 295          id: 296         
+id: 461          id: 476          id: 644         
+id: 651          id: 653          
+
+Business:
+id: 0   Амуниция/Тир 
+
+
+Сервер: 5
+Orange_Juice
+
+House:
+id: 1661         
+
+Business:
+id: 49  Закусочная 
+
+
+Сервер: 5
+Kiss_Brooks
+
+House:
+id: 516          
+
+Business:
+id: 344 Нефтевышка 
+
+
+Сервер: 5
+Shidzho_Okuyama
+
+House:
+id: 227          id: 695          id: 701         
+id: 703          id: 756          id: 919         
+id: 1296         id: 1312         id: 1360        
+id: 1464         id: 1559         id: 1725        
+
+
+Business:
+id: 343 Нефтевышка 
+
+
+Сервер: 5
+Yuki_Aenami
+
+House:
+id: 1190         id: 1507         id: 1508        
+id: 1509         id: 1510         
+
+Business:
+id: 352 Магазин аксессуаров 
+
+
+Сервер: 5
+James_Mariachi
+
+House:
+id: 52           id: 316          id: 345         
+id: 346          id: 351          id: 352         
+id: 357          id: 514          id: 1452        
+id: 1678         id: 1732         
+
+Business:
+id: 441 Электрокомпания 
+
+
+Сервер: 5
+Pakito_LaMorte
+
+Business:
+id: 150 Отель   
+
+
+Сервер: 5
+Nata_Sharova
+
+House:
+id: 685          id: 709          id: 979         
+id: 1304         id: 1415         id: 1672        
+
+
+Business:
+id: 189 Ларек с уличной едой 
+
+
+Сервер: 5
+Grand_Blumber
+
+House:
+id: 458          id: 459          id: 487         
+id: 488          id: 1765         
+
+Business:
+id: 191 Ларек с уличной едой 
+
+
+Сервер: 5
+Anthoni_Capone
+
+House:
+id: 1176         id: 1769         
+
+Business:
+id: 353 Магазин 24/7 
+
+
+Сервер: 5
+Scandal_Arcteryx
+
+House:
+id: 1308         
+
+Business:
+id: 219 Ларек с уличной едой 
+
+
+Сервер: 5
+Akio_Tagashiva
+
+House:
+id: 318          id: 319          id: 320         
+id: 325          id: 1564         id: 1645        
+
+
+Business:
+id: 30  АЗС/Магазин механики 
+
+
+Сервер: 5
+Stitch_Letov
+
+House:
+id: 255          id: 263          id: 334         
+id: 421          id: 423          id: 624         
+id: 854          id: 876          id: 1019        
+id: 1036         id: 1064         id: 1073        
+id: 1085         id: 1314         id: 1706        
+
+
+Business:
+id: 9   Магазин 24/7 
+
+
+Сервер: 5
+Caymon_Crystal
+
+House:
+id: 1239         
+
+Business:
+id: 356 Бар     
+
+
+Сервер: 5
+Vadus_Morelli
+
+Business:
+id: 249 АЗС/Магазин механики 
+
+
+Сервер: 5
+Hightower_Loranved
+
+Business:
+id: 250 АЗС/Магазин механики 
+
+
+Сервер: 5
+Anton_Porshe
+
+House:
+id: 438          
+
+Business:
+id: 434 Киоск   
+
+
+Сервер: 5
+Nikky_Death
+
+House:
+id: 6            id: 317          id: 347         
+id: 349          id: 350          id: 356         
+id: 1433         
+
+Business:
+id: 36  Закусочная 
+
+
+Сервер: 5
+Ruslan_White
+
+Business:
+id: 10  Магазин 24/7 
+
+
+Сервер: 5
+Vitaliy_Gess
+
+House:
+id: 1680         id: 1752         
+
+Business:
+id: 39  Аренда транспорта 
+
+
+Сервер: 5
+Jessie_Vatutin
+
+Business:
+id: 300 Отель   
+
+
+Сервер: 5
+Max_Arab
+
+Business:
+id: 217 Ларек с уличной едой 
+
+
+Сервер: 5
+Andre_Boroda
+
+Business:
+id: 186 Ларек с уличной едой 
+
+
+Сервер: 5
+Sanya_Turbina
+
+Business:
+id: 37  Закусочная 
+
+
+Сервер: 5
+Yoshiro_Ookami
+
+House:
+id: 181          id: 182          id: 183         
+id: 298          id: 302          id: 1411        
+
+
+Business:
+id: 50  Закусочная 
+
+
+Сервер: 5
+Jesus_Nachile
+
+Business:
+id: 24  АЗС/Магазин механики 
+
+
+Сервер: 5
+Jane_Ruiz
+
+House:
+id: 0            id: 395          id: 511         
+id: 746          id: 878          id: 1413        
+id: 1416         id: 1494         
+
+Business:
+id: 38  Закусочная 
+
+
+Сервер: 5
+Vlad_Tornerro
+
+House:
+id: 1061         
+
+Business:
+id: 247 Нефтевышка 
+
+
+Сервер: 5
+Moksy_Diez
+
+Business:
+id: 82  Закусочная 
+
+
+Сервер: 5
+Moore_Deluxe
+
+House:
+id: 283          id: 519          
+
+Business:
+id: 176 Магазин 24/7 
+
+
+Сервер: 5
+Dmitriy_Nyashka
+
+House:
+id: 256          id: 902          
+
+Business:
+id: 52  Аренда транспорта 
+
+
+Сервер: 5
+Epson_Brooks
+
+House:
+id: 427          id: 1634         
+
+Business:
+id: 167 Закусочная 
+
+
+Сервер: 5
+Ivan_Hentaev
+
+House:
+id: 926          id: 1114         
+
+Business:
+id: 209 Ларек с уличной едой 
+
+
+Сервер: 5
+Bonny_Keiner
+
+Business:
+id: 142 Отель   
+
+
+Сервер: 5
+Omega_Black
+
+House:
+id: 463          id: 465          id: 478         
+id: 481          id: 482          id: 483         
+id: 492          id: 1773         
+
+Business:
+id: 79  Закусочная 
+
+
+, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null, linkPreviewOptions=null, replyParameters=null)
+2025-05-05 01:36:43 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-05-05 01:36:43 INFO  o.s.s.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+2025-05-05 01:36:43 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2025-05-05 01:36:43 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-05-05 01:36:43 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2025-05-05 01:36:43 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-05 01:36:43 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-05-05 01:36:43 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-05-05 01:36:45 INFO  org.example.App - Starting App using Java 21.0.6 with PID 55811 (/Users/alex/Desktop/java/репозитории/проекты/checker/target/classes started by alex in /Users/alex/Desktop/java/репозитории/проекты/checker)
+2025-05-05 01:36:45 INFO  org.example.App - No active profile set, falling back to 1 default profile: "default"
+2025-05-05 01:36:46 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-05 01:36:46 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 2 JPA repository interfaces.
+2025-05-05 01:36:46 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-05 01:36:46 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-05-05 01:36:46 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-05-05 01:36:46 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-05 01:36:46 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-05 01:36:46 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@9fe720a
+2025-05-05 01:36:46 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-05 01:36:46 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-05 01:36:46 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-05 01:36:46 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-05 01:36:46 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-05-05 01:36:48 INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2025-05-05 01:36:48 INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2025-05-05 01:36:48 INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2025-05-05 01:36:48 INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2025-05-05 01:36:48 INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2025-05-05 01:36:48 INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2025-05-05 01:36:48 INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2025-05-05 01:36:48 INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@1313dea8
+2025-05-05 01:36:48 INFO  o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2025-05-05 01:36:48 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2025-05-05 01:36:48 INFO  org.example.App - Started App in 2.586 seconds (process running for 2.769)
+2025-05-05 01:36:48 INFO  org.example.service.ApiTakerService - Начался опрос api 01:36:48.024434
+2025-05-05 01:36:49 INFO  org.example.service.ApiTakerService - Опросился 1 сервер
+2025-05-05 01:36:50 INFO  org.example.service.ApiTakerService - Опросился 2 сервер
+2025-05-05 01:36:50 INFO  org.example.service.ApiTakerService - Опросился 3 сервер
+2025-05-05 01:36:51 INFO  org.example.service.ApiTakerService - Опросился 4 сервер
+2025-05-05 01:36:52 INFO  org.example.service.ApiTakerService - Опросился 5 сервер
+2025-05-05 01:36:53 INFO  org.example.service.ApiTakerService - Опросился 6 сервер
+2025-05-05 01:36:53 INFO  org.example.service.ApiTakerService - Опросился 7 сервер
+2025-05-05 01:36:54 INFO  org.example.service.ApiTakerService - Опросился 8 сервер
+2025-05-05 01:36:54 WARN  org.example.controller.TGBot - Не удалось выполнить SendMessage(chatId=828575026, messageThreadId=null, text=Сервер: 5
+Lue_Loe
+
+Business:
+id: 296 Закусочная 
+
+
+Сервер: 5
+Lofay_Salvatore
+
+House:
+id: 306          id: 1496         id: 1497        
+id: 1498         id: 1499         id: 1500        
+id: 1501         id: 1502         id: 1503        
+
+
+Business:
+id: 185 Ларек с уличной едой 
+
+
+Сервер: 5
+Cany_Castrello
+
+House:
+id: 837          
+
+Business:
+id: 271 Закусочная 
+
+
+Сервер: 5
+Aleks_Ment
+
+House:
+id: 27           id: 128          id: 222         
+id: 348          id: 353          id: 453         
+id: 702          id: 711          id: 948         
+id: 992          id: 993          id: 1208        
+id: 1375         id: 1466         id: 1524        
+
+
+Business:
+id: 440 Электрокомпания 
+
+
+Сервер: 5
+Paolo_Marino
+
+House:
+id: 622          id: 1245         
+
+Business:
+id: 114 Закусочная 
+
+
+Сервер: 5
+Shadow_Buzz
+
+House:
+id: 440          id: 760          id: 1298        
+
+
+Business:
+id: 216 Ларек с уличной едой 
+
+
+Сервер: 5
+Kachan_Jonson
+
+House:
+id: 1337         
+
+Business:
+id: 184 Ларек с уличной едой 
+
+
+Сервер: 5
+Lucas_Deluxe
+
+Business:
+id: 298 Магазин 24/7 
+
+
+Сервер: 5
+Page_Mortan
+
+House:
+id: 1040         
+
+Business:
+id: 201 Ларек с уличной едой 
+
+
+Сервер: 5
+Jhonathan_King
+
+House:
+id: 242          
+
+Business:
+id: 58  Аренда транспорта 
+
+
+Сервер: 5
+William_Wright
+
+House:
+id: 1305         
+
+Business:
+id: 175 Магазин 24/7 
+
+
+Сервер: 5
+Barry_Legenda
+
+House:
+id: 226          id: 1095         id: 1098        
+id: 1099         id: 1100         id: 1396        
+id: 1434         id: 1435         id: 1436        
+id: 1441         id: 1445         id: 1446        
+id: 1447         id: 1566         id: 1567        
+
+
+Business:
+id: 171 Закусочная 
+
+
+Сервер: 5
+Kane_Grand
+
+Business:
+id: 78  Закусочная 
+
+
+Сервер: 5
+Serega_Bidenko
+
+House:
+id: 1361         id: 1671         
+
+Business:
+id: 105 Магазин 24/7 
+
+
+Сервер: 5
+Paracetamol_Damnedz
+
+House:
+id: 203          id: 721          id: 1491        
+id: 1568         id: 1569         
+
+Business:
+id: 23  АЗС/Магазин механики 
+
+
+Сервер: 5
+Xyrman_Mandarinov
+
+House:
+id: 307          id: 641          id: 687         
+id: 688          id: 1164         id: 1166        
+id: 1177         
+
+Business:
+id: 256 Аренда сельхоз техники 
+
+
+Сервер: 5
+John_Deen
+
+Business:
+id: 267 Ларек с уличной едой 
+
+
+Сервер: 5
+Kaguya_Shinomiya
+
+House:
+id: 2            
+
+Business:
+id: 131 Телефонная компания ЛВ 
+
+
+Сервер: 5
+Kuroko_Phantom
+
+Business:
+id: 348 Магазин 24/7 
+
+
+Сервер: 5
+Stewart_LaMonte
+
+House:
+id: 110          id: 111          id: 112         
+id: 113          id: 114          id: 115         
+id: 574          id: 594          id: 945         
+id: 1289         id: 1750         
+
+Business:
+id: 169 Закусочная 
+
+
+Сервер: 5
+Stiven_Wockeez
+
+House:
+id: 104          id: 107          id: 545         
+id: 994          id: 996          id: 1539        
+
+
+Business:
+id: 358 Закусочная 
+
+
+Сервер: 5
+Ernesto_Liberty
+
+Business:
+id: 305 Авто Сервис 
+
+
+Сервер: 5
+Alex_Chumak
+
+House:
+id: 364          id: 366          id: 368         
+id: 369          id: 370          id: 371         
+id: 373          id: 433          id: 434         
+id: 1038         id: 1492         id: 1611        
+id: 1612         
+
+Business:
+id: 437 Киоск   
+
+
+Сервер: 5
+Noah_Aenami
+
+House:
+id: 191          id: 192          id: 193         
+id: 194          id: 195          id: 196         
+id: 213          id: 499          id: 1543        
+id: 1581         
+
+Business:
+id: 294 Закусочная 
+
+
+Сервер: 5
+Decoded_Feedback
+
+House:
+id: 286          id: 1163         id: 1580        
+
+
+Business:
+id: 178 Амуниция/Тир 
+
+
+Сервер: 5
+Raymond_Infamous
+
+House:
+id: 557          id: 1374         id: 1658        
+id: 1698         id: 1701         id: 1702        
+id: 1703         id: 1704         id: 1764        
+
+
+Business:
+id: 288 АЗС/Магазин механики 
+
+
+Сервер: 5
+Ryu_Oba
+
+House:
+id: 50           id: 51           id: 675         
+id: 958          id: 972          id: 1341        
+id: 1344         id: 1547         id: 1606        
+id: 1708         id: 1710         
+
+Business:
+id: 251 АЗС/Магазин механики 
+
+
+Сервер: 5
+Tommy_Conlin
+
+House:
+id: 1368         
+
+Business:
+id: 314 Авто Сервис 
+
+
+Сервер: 5
+Nastusha_Hohotao
+
+House:
+id: 1246         id: 1259         id: 1274        
+id: 1276         id: 1278         
+
+Business:
+id: 170 Закусочная 
+
+
+Сервер: 5
+Sanctus_Spiritus
+
+House:
+id: 719          id: 1679         
+
+Business:
+id: 259 Закусочная 
+
+
+Сервер: 5
+Sub_Zeroo
+
+Business:
+id: 293 Ларек с уличной едой 
+
+
+Сервер: 5
+Shark_Erikson
+
+House:
+id: 755          
+
+Business:
+id: 109 Закусочная 
+
+
+Сервер: 5
+Marco_Grava
+
+House:
+id: 13           id: 295          id: 296         
+id: 461          id: 476          id: 644         
+id: 651          id: 653          
+
+Business:
+id: 0   Амуниция/Тир 
+
+
+Сервер: 5
+Orange_Juice
+
+House:
+id: 1661         
+
+Business:
+id: 49  Закусочная 
+
+
+Сервер: 5
+Kiss_Brooks
+
+House:
+id: 516          
+
+Business:
+id: 344 Нефтевышка 
+
+
+Сервер: 5
+Shidzho_Okuyama
+
+House:
+id: 227          id: 695          id: 701         
+id: 703          id: 756          id: 919         
+id: 1296         id: 1312         id: 1360        
+id: 1464         id: 1559         id: 1725        
+
+
+Business:
+id: 343 Нефтевышка 
+
+
+Сервер: 5
+Yuki_Aenami
+
+House:
+id: 1190         id: 1507         id: 1508        
+id: 1509         id: 1510         
+
+Business:
+id: 352 Магазин аксессуаров 
+
+
+Сервер: 5
+James_Mariachi
+
+House:
+id: 52           id: 316          id: 345         
+id: 346          id: 351          id: 352         
+id: 357          id: 514          id: 1452        
+id: 1678         id: 1732         
+
+Business:
+id: 441 Электрокомпания 
+
+
+Сервер: 5
+Pakito_LaMorte
+
+Business:
+id: 150 Отель   
+
+
+Сервер: 5
+Nata_Sharova
+
+House:
+id: 685          id: 709          id: 979         
+id: 1304         id: 1415         id: 1672        
+
+
+Business:
+id: 189 Ларек с уличной едой 
+
+
+Сервер: 5
+Grand_Blumber
+
+House:
+id: 458          id: 459          id: 487         
+id: 488          id: 1765         
+
+Business:
+id: 191 Ларек с уличной едой 
+
+
+Сервер: 5
+Anthoni_Capone
+
+House:
+id: 1176         id: 1769         
+
+Business:
+id: 353 Магазин 24/7 
+
+
+Сервер: 5
+Scandal_Arcteryx
+
+House:
+id: 1308         
+
+Business:
+id: 219 Ларек с уличной едой 
+
+
+Сервер: 5
+Akio_Tagashiva
+
+House:
+id: 318          id: 319          id: 320         
+id: 325          id: 1564         id: 1645        
+
+
+Business:
+id: 30  АЗС/Магазин механики 
+
+
+Сервер: 5
+Stitch_Letov
+
+House:
+id: 255          id: 263          id: 334         
+id: 421          id: 423          id: 624         
+id: 854          id: 876          id: 1019        
+id: 1036         id: 1064         id: 1073        
+id: 1085         id: 1314         id: 1706        
+
+
+Business:
+id: 9   Магазин 24/7 
+
+
+Сервер: 5
+Caymon_Crystal
+
+House:
+id: 1239         
+
+Business:
+id: 356 Бар     
+
+
+Сервер: 5
+Vadus_Morelli
+
+Business:
+id: 249 АЗС/Магазин механики 
+
+
+Сервер: 5
+Hightower_Loranved
+
+Business:
+id: 250 АЗС/Магазин механики 
+
+
+Сервер: 5
+Anton_Porshe
+
+House:
+id: 438          
+
+Business:
+id: 434 Киоск   
+
+
+Сервер: 5
+Nikky_Death
+
+House:
+id: 6            id: 317          id: 347         
+id: 349          id: 350          id: 356         
+id: 1433         
+
+Business:
+id: 36  Закусочная 
+
+
+Сервер: 5
+Ruslan_White
+
+Business:
+id: 10  Магазин 24/7 
+
+
+Сервер: 5
+Vitaliy_Gess
+
+House:
+id: 1680         id: 1752         
+
+Business:
+id: 39  Аренда транспорта 
+
+
+Сервер: 5
+Jessie_Vatutin
+
+Business:
+id: 300 Отель   
+
+
+Сервер: 5
+Max_Arab
+
+Business:
+id: 217 Ларек с уличной едой 
+
+
+Сервер: 5
+Andre_Boroda
+
+Business:
+id: 186 Ларек с уличной едой 
+
+
+Сервер: 5
+Sanya_Turbina
+
+Business:
+id: 37  Закусочная 
+
+
+Сервер: 5
+Yoshiro_Ookami
+
+House:
+id: 181          id: 182          id: 183         
+id: 298          id: 302          id: 1411        
+
+
+Business:
+id: 50  Закусочная 
+
+
+Сервер: 5
+Jesus_Nachile
+
+Business:
+id: 24  АЗС/Магазин механики 
+
+
+Сервер: 5
+Jane_Ruiz
+
+House:
+id: 0            id: 395          id: 511         
+id: 746          id: 878          id: 1413        
+id: 1416         id: 1494         
+
+Business:
+id: 38  Закусочная 
+
+
+Сервер: 5
+Vlad_Tornerro
+
+House:
+id: 1061         
+
+Business:
+id: 247 Нефтевышка 
+
+
+Сервер: 5
+Moksy_Diez
+
+Business:
+id: 82  Закусочная 
+
+
+Сервер: 5
+Moore_Deluxe
+
+House:
+id: 283          id: 519          
+
+Business:
+id: 176 Магазин 24/7 
+
+
+Сервер: 5
+Dmitriy_Nyashka
+
+House:
+id: 256          id: 902          
+
+Business:
+id: 52  Аренда транспорта 
+
+
+Сервер: 5
+Epson_Brooks
+
+House:
+id: 427          id: 1634         
+
+Business:
+id: 167 Закусочная 
+
+
+Сервер: 5
+Ivan_Hentaev
+
+House:
+id: 926          id: 1114         
+
+Business:
+id: 209 Ларек с уличной едой 
+
+
+Сервер: 5
+Bonny_Keiner
+
+Business:
+id: 142 Отель   
+
+
+Сервер: 5
+Omega_Black
+
+House:
+id: 463          id: 465          id: 478         
+id: 481          id: 482          id: 483         
+id: 492          id: 1773         
+
+Business:
+id: 79  Закусочная 
+
+
+, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null, linkPreviewOptions=null, replyParameters=null)
+2025-05-05 01:36:55 INFO  org.example.service.ApiTakerService - Опросился 9 сервер
+2025-05-05 01:36:55 INFO  org.example.service.ApiTakerService - Опросился 10 сервер
+2025-05-05 01:36:56 INFO  org.example.service.ApiTakerService - Опросился 11 сервер
+2025-05-05 01:36:56 INFO  org.example.service.ApiTakerService - Опросился 12 сервер
+2025-05-05 01:36:57 INFO  org.example.service.ApiTakerService - Опросился 13 сервер
+2025-05-05 01:36:58 INFO  org.example.service.ApiTakerService - Опросился 14 сервер
+2025-05-05 01:36:59 INFO  org.example.service.ApiTakerService - Опросился 15 сервер
+2025-05-05 01:36:59 INFO  org.example.service.ApiTakerService - Опросился 16 сервер
+2025-05-05 01:37:00 INFO  org.example.service.ApiTakerService - Опросился 17 сервер
+2025-05-05 01:37:01 INFO  org.example.service.ApiTakerService - Опросился 18 сервер
+2025-05-05 01:37:01 INFO  org.example.service.ApiTakerService - Опросился 19 сервер
+2025-05-05 01:37:02 INFO  org.example.service.ApiTakerService - Опросился 20 сервер
+2025-05-05 01:37:03 INFO  org.example.service.ApiTakerService - Опросился 21 сервер
+2025-05-05 01:37:03 INFO  org.example.service.ApiTakerService - Опросился 22 сервер
+2025-05-05 01:37:04 INFO  org.example.service.ApiTakerService - Опросился 23 сервер
+2025-05-05 01:37:05 INFO  org.example.service.ApiTakerService - Опросился 24 сервер
+2025-05-05 01:37:05 INFO  org.example.service.ApiTakerService - Опросился 25 сервер
+2025-05-05 01:37:06 INFO  org.example.service.ApiTakerService - Опросился 26 сервер
+2025-05-05 01:37:07 INFO  org.example.service.ApiTakerService - Опросился 27 сервер
+2025-05-05 01:37:07 INFO  org.example.service.ApiTakerService - Опросился 28 сервер
+2025-05-05 01:37:08 INFO  org.example.service.ApiTakerService - Опросился 29 сервер
+2025-05-05 01:37:08 INFO  org.example.service.ApiTakerService - Опросился 30 сервер
+2025-05-05 01:37:09 INFO  org.example.service.ApiTakerService - Опросился 31 сервер
+2025-05-05 01:37:09 INFO  org.example.service.ApiTakerService - Опрос api успешно завершен 01:37:09.585164
+2025-05-05 01:37:20 WARN  org.example.controller.TGBot - Не удалось выполнить SendMessage(chatId=828575026, messageThreadId=null, text=Сервер: 5
+Lue_Loe
+
+Business:
+id: 296 Закусочная 
+
+
+Сервер: 5
+Lofay_Salvatore
+
+House:
+id: 306          id: 1496         id: 1497        
+id: 1498         id: 1499         id: 1500        
+id: 1501         id: 1502         id: 1503        
+
+
+Business:
+id: 185 Ларек с уличной едой 
+
+
+Сервер: 5
+Cany_Castrello
+
+House:
+id: 837          
+
+Business:
+id: 271 Закусочная 
+
+
+Сервер: 5
+Aleks_Ment
+
+House:
+id: 27           id: 128          id: 222         
+id: 348          id: 353          id: 453         
+id: 702          id: 711          id: 948         
+id: 992          id: 993          id: 1208        
+id: 1375         id: 1466         id: 1524        
+
+
+Business:
+id: 440 Электрокомпания 
+
+
+Сервер: 5
+Paolo_Marino
+
+House:
+id: 622          id: 1245         
+
+Business:
+id: 114 Закусочная 
+
+
+Сервер: 5
+Shadow_Buzz
+
+House:
+id: 440          id: 760          id: 1298        
+
+
+Business:
+id: 216 Ларек с уличной едой 
+
+
+Сервер: 5
+Kachan_Jonson
+
+House:
+id: 1337         
+
+Business:
+id: 184 Ларек с уличной едой 
+
+
+Сервер: 5
+Lucas_Deluxe
+
+Business:
+id: 298 Магазин 24/7 
+
+
+Сервер: 5
+Page_Mortan
+
+House:
+id: 1040         
+
+Business:
+id: 201 Ларек с уличной едой 
+
+
+Сервер: 5
+Jhonathan_King
+
+House:
+id: 242          
+
+Business:
+id: 58  Аренда транспорта 
+
+
+Сервер: 5
+William_Wright
+
+House:
+id: 1305         
+
+Business:
+id: 175 Магазин 24/7 
+
+
+Сервер: 5
+Barry_Legenda
+
+House:
+id: 226          id: 1095         id: 1098        
+id: 1099         id: 1100         id: 1396        
+id: 1434         id: 1435         id: 1436        
+id: 1441         id: 1445         id: 1446        
+id: 1447         id: 1566         id: 1567        
+
+
+Business:
+id: 171 Закусочная 
+
+
+Сервер: 5
+Kane_Grand
+
+Business:
+id: 78  Закусочная 
+
+
+Сервер: 5
+Serega_Bidenko
+
+House:
+id: 1361         id: 1671         
+
+Business:
+id: 105 Магазин 24/7 
+
+
+Сервер: 5
+Paracetamol_Damnedz
+
+House:
+id: 203          id: 721          id: 1491        
+id: 1568         id: 1569         
+
+Business:
+id: 23  АЗС/Магазин механики 
+
+
+Сервер: 5
+Xyrman_Mandarinov
+
+House:
+id: 307          id: 641          id: 687         
+id: 688          id: 1164         id: 1166        
+id: 1177         
+
+Business:
+id: 256 Аренда сельхоз техники 
+
+
+Сервер: 5
+John_Deen
+
+Business:
+id: 267 Ларек с уличной едой 
+
+
+Сервер: 5
+Kaguya_Shinomiya
+
+House:
+id: 2            
+
+Business:
+id: 131 Телефонная компания ЛВ 
+
+
+Сервер: 5
+Kuroko_Phantom
+
+Business:
+id: 348 Магазин 24/7 
+
+
+Сервер: 5
+Stewart_LaMonte
+
+House:
+id: 110          id: 111          id: 112         
+id: 113          id: 114          id: 115         
+id: 574          id: 594          id: 945         
+id: 1289         id: 1750         
+
+Business:
+id: 169 Закусочная 
+
+
+Сервер: 5
+Stiven_Wockeez
+
+House:
+id: 104          id: 107          id: 545         
+id: 994          id: 996          id: 1539        
+
+
+Business:
+id: 358 Закусочная 
+
+
+Сервер: 5
+Ernesto_Liberty
+
+Business:
+id: 305 Авто Сервис 
+
+
+Сервер: 5
+Alex_Chumak
+
+House:
+id: 364          id: 366          id: 368         
+id: 369          id: 370          id: 371         
+id: 373          id: 433          id: 434         
+id: 1038         id: 1492         id: 1611        
+id: 1612         
+
+Business:
+id: 437 Киоск   
+
+
+Сервер: 5
+Noah_Aenami
+
+House:
+id: 191          id: 192          id: 193         
+id: 194          id: 195          id: 196         
+id: 213          id: 499          id: 1543        
+id: 1581         
+
+Business:
+id: 294 Закусочная 
+
+
+Сервер: 5
+Decoded_Feedback
+
+House:
+id: 286          id: 1163         id: 1580        
+
+
+Business:
+id: 178 Амуниция/Тир 
+
+
+Сервер: 5
+Raymond_Infamous
+
+House:
+id: 557          id: 1374         id: 1658        
+id: 1698         id: 1701         id: 1702        
+id: 1703         id: 1704         id: 1764        
+
+
+Business:
+id: 288 АЗС/Магазин механики 
+
+
+Сервер: 5
+Ryu_Oba
+
+House:
+id: 50           id: 51           id: 675         
+id: 958          id: 972          id: 1341        
+id: 1344         id: 1547         id: 1606        
+id: 1708         id: 1710         
+
+Business:
+id: 251 АЗС/Магазин механики 
+
+
+Сервер: 5
+Tommy_Conlin
+
+House:
+id: 1368         
+
+Business:
+id: 314 Авто Сервис 
+
+
+Сервер: 5
+Nastusha_Hohotao
+
+House:
+id: 1246         id: 1259         id: 1274        
+id: 1276         id: 1278         
+
+Business:
+id: 170 Закусочная 
+
+
+Сервер: 5
+Sanctus_Spiritus
+
+House:
+id: 719          id: 1679         
+
+Business:
+id: 259 Закусочная 
+
+
+Сервер: 5
+Sub_Zeroo
+
+Business:
+id: 293 Ларек с уличной едой 
+
+
+Сервер: 5
+Shark_Erikson
+
+House:
+id: 755          
+
+Business:
+id: 109 Закусочная 
+
+
+Сервер: 5
+Marco_Grava
+
+House:
+id: 13           id: 295          id: 296         
+id: 461          id: 476          id: 644         
+id: 651          id: 653          
+
+Business:
+id: 0   Амуниция/Тир 
+
+
+Сервер: 5
+Orange_Juice
+
+House:
+id: 1661         
+
+Business:
+id: 49  Закусочная 
+
+
+Сервер: 5
+Kiss_Brooks
+
+House:
+id: 516          
+
+Business:
+id: 344 Нефтевышка 
+
+
+Сервер: 5
+Shidzho_Okuyama
+
+House:
+id: 227          id: 695          id: 701         
+id: 703          id: 756          id: 919         
+id: 1296         id: 1312         id: 1360        
+id: 1464         id: 1559         id: 1725        
+
+
+Business:
+id: 343 Нефтевышка 
+
+
+Сервер: 5
+Yuki_Aenami
+
+House:
+id: 1190         id: 1507         id: 1508        
+id: 1509         id: 1510         
+
+Business:
+id: 352 Магазин аксессуаров 
+
+
+Сервер: 5
+James_Mariachi
+
+House:
+id: 52           id: 316          id: 345         
+id: 346          id: 351          id: 352         
+id: 357          id: 514          id: 1452        
+id: 1678         id: 1732         
+
+Business:
+id: 441 Электрокомпания 
+
+
+Сервер: 5
+Pakito_LaMorte
+
+Business:
+id: 150 Отель   
+
+
+Сервер: 5
+Nata_Sharova
+
+House:
+id: 685          id: 709          id: 979         
+id: 1304         id: 1415         id: 1672        
+
+
+Business:
+id: 189 Ларек с уличной едой 
+
+
+Сервер: 5
+Grand_Blumber
+
+House:
+id: 458          id: 459          id: 487         
+id: 488          id: 1765         
+
+Business:
+id: 191 Ларек с уличной едой 
+
+
+Сервер: 5
+Anthoni_Capone
+
+House:
+id: 1176         id: 1769         
+
+Business:
+id: 353 Магазин 24/7 
+
+
+Сервер: 5
+Scandal_Arcteryx
+
+House:
+id: 1308         
+
+Business:
+id: 219 Ларек с уличной едой 
+
+
+Сервер: 5
+Akio_Tagashiva
+
+House:
+id: 318          id: 319          id: 320         
+id: 325          id: 1564         id: 1645        
+
+
+Business:
+id: 30  АЗС/Магазин механики 
+
+
+Сервер: 5
+Stitch_Letov
+
+House:
+id: 255          id: 263          id: 334         
+id: 421          id: 423          id: 624         
+id: 854          id: 876          id: 1019        
+id: 1036         id: 1064         id: 1073        
+id: 1085         id: 1314         id: 1706        
+
+
+Business:
+id: 9   Магазин 24/7 
+
+
+Сервер: 5
+Caymon_Crystal
+
+House:
+id: 1239         
+
+Business:
+id: 356 Бар     
+
+
+Сервер: 5
+Vadus_Morelli
+
+Business:
+id: 249 АЗС/Магазин механики 
+
+
+Сервер: 5
+Hightower_Loranved
+
+Business:
+id: 250 АЗС/Магазин механики 
+
+
+Сервер: 5
+Anton_Porshe
+
+House:
+id: 438          
+
+Business:
+id: 434 Киоск   
+
+
+Сервер: 5
+Nikky_Death
+
+House:
+id: 6            id: 317          id: 347         
+id: 349          id: 350          id: 356         
+id: 1433         
+
+Business:
+id: 36  Закусочная 
+
+
+Сервер: 5
+Ruslan_White
+
+Business:
+id: 10  Магазин 24/7 
+
+
+Сервер: 5
+Vitaliy_Gess
+
+House:
+id: 1680         id: 1752         
+
+Business:
+id: 39  Аренда транспорта 
+
+
+Сервер: 5
+Jessie_Vatutin
+
+Business:
+id: 300 Отель   
+
+
+Сервер: 5
+Max_Arab
+
+Business:
+id: 217 Ларек с уличной едой 
+
+
+Сервер: 5
+Andre_Boroda
+
+Business:
+id: 186 Ларек с уличной едой 
+
+
+Сервер: 5
+Sanya_Turbina
+
+Business:
+id: 37  Закусочная 
+
+
+Сервер: 5
+Yoshiro_Ookami
+
+House:
+id: 181          id: 182          id: 183         
+id: 298          id: 302          id: 1411        
+
+
+Business:
+id: 50  Закусочная 
+
+
+Сервер: 5
+Jesus_Nachile
+
+Business:
+id: 24  АЗС/Магазин механики 
+
+
+Сервер: 5
+Jane_Ruiz
+
+House:
+id: 0            id: 395          id: 511         
+id: 746          id: 878          id: 1413        
+id: 1416         id: 1494         
+
+Business:
+id: 38  Закусочная 
+
+
+Сервер: 5
+Vlad_Tornerro
+
+House:
+id: 1061         
+
+Business:
+id: 247 Нефтевышка 
+
+
+Сервер: 5
+Moksy_Diez
+
+Business:
+id: 82  Закусочная 
+
+
+Сервер: 5
+Moore_Deluxe
+
+House:
+id: 283          id: 519          
+
+Business:
+id: 176 Магазин 24/7 
+
+
+Сервер: 5
+Dmitriy_Nyashka
+
+House:
+id: 256          id: 902          
+
+Business:
+id: 52  Аренда транспорта 
+
+
+Сервер: 5
+Epson_Brooks
+
+House:
+id: 427          id: 1634         
+
+Business:
+id: 167 Закусочная 
+
+
+Сервер: 5
+Ivan_Hentaev
+
+House:
+id: 926          id: 1114         
+
+Business:
+id: 209 Ларек с уличной едой 
+
+
+Сервер: 5
+Bonny_Keiner
+
+Business:
+id: 142 Отель   
+
+
+Сервер: 5
+Omega_Black
+
+House:
+id: 463          id: 465          id: 478         
+id: 481          id: 482          id: 483         
+id: 492          id: 1773         
+
+Business:
+id: 79  Закусочная 
+
+
+, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null, linkPreviewOptions=null, replyParameters=null)
+2025-05-05 01:39:02 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-05-05 01:39:02 INFO  o.s.s.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+2025-05-05 01:39:02 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2025-05-05 01:39:02 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-05-05 01:39:02 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2025-05-05 01:39:02 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-05 01:39:02 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-05-05 01:39:02 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-05-05 01:39:04 INFO  org.example.App - Starting App using Java 21.0.6 with PID 55834 (/Users/alex/Desktop/java/репозитории/проекты/checker/target/classes started by alex in /Users/alex/Desktop/java/репозитории/проекты/checker)
+2025-05-05 01:39:04 INFO  org.example.App - No active profile set, falling back to 1 default profile: "default"
+2025-05-05 01:39:05 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-05 01:39:05 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 2 JPA repository interfaces.
+2025-05-05 01:39:05 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-05 01:39:05 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-05-05 01:39:05 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-05-05 01:39:05 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-05 01:39:05 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-05 01:39:05 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6ffd4c0d
+2025-05-05 01:39:05 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-05 01:39:05 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-05 01:39:05 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-05 01:39:05 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-05 01:39:05 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-05-05 01:39:06 INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2025-05-05 01:39:06 INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2025-05-05 01:39:06 INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2025-05-05 01:39:06 INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2025-05-05 01:39:06 INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2025-05-05 01:39:06 INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2025-05-05 01:39:06 INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2025-05-05 01:39:06 INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@2f0b7b6d
+2025-05-05 01:39:06 INFO  o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2025-05-05 01:39:06 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2025-05-05 01:39:06 INFO  org.example.App - Started App in 2.121 seconds (process running for 2.29)
+2025-05-05 01:39:06 INFO  org.example.service.ApiTakerService - Начался опрос api 01:39:06.645146
+2025-05-05 01:39:07 INFO  org.example.service.ApiTakerService - Опросился 1 сервер
+2025-05-05 01:39:08 INFO  org.example.service.ApiTakerService - Опросился 2 сервер
+2025-05-05 01:39:09 INFO  org.example.service.ApiTakerService - Опросился 3 сервер
+2025-05-05 01:39:09 INFO  org.example.service.ApiTakerService - Опросился 4 сервер
+2025-05-05 01:39:10 INFO  org.example.service.ApiTakerService - Опросился 5 сервер
+2025-05-05 01:39:11 INFO  org.example.service.ApiTakerService - Опросился 6 сервер
+2025-05-05 01:39:11 INFO  org.example.service.ApiTakerService - Опросился 7 сервер
+2025-05-05 01:39:12 INFO  org.example.service.ApiTakerService - Опросился 8 сервер
+2025-05-05 01:39:13 INFO  org.example.service.ApiTakerService - Опросился 9 сервер
+2025-05-05 01:39:14 INFO  org.example.service.ApiTakerService - Опросился 10 сервер
+2025-05-05 01:39:14 INFO  org.example.service.ApiTakerService - Опросился 11 сервер
+2025-05-05 01:39:15 INFO  org.example.service.ApiTakerService - Опросился 12 сервер
+2025-05-05 01:39:15 INFO  org.example.service.ApiTakerService - Опросился 13 сервер
+2025-05-05 01:39:16 INFO  org.example.service.ApiTakerService - Опросился 14 сервер
+2025-05-05 01:39:17 INFO  org.example.service.ApiTakerService - Опросился 15 сервер
+2025-05-05 01:39:17 INFO  org.example.service.ApiTakerService - Опросился 16 сервер
+2025-05-05 01:39:18 INFO  org.example.service.ApiTakerService - Опросился 17 сервер
+2025-05-05 01:39:18 INFO  org.example.service.ApiTakerService - Опросился 18 сервер
+2025-05-05 01:39:19 INFO  org.example.service.ApiTakerService - Опросился 19 сервер
+2025-05-05 01:39:20 INFO  org.example.service.ApiTakerService - Опросился 20 сервер
+2025-05-05 01:39:20 INFO  org.example.service.ApiTakerService - Опросился 21 сервер
+2025-05-05 01:39:21 INFO  org.example.service.ApiTakerService - Опросился 22 сервер
+2025-05-05 01:39:22 INFO  org.example.service.ApiTakerService - Опросился 23 сервер
+2025-05-05 01:39:22 INFO  org.example.service.ApiTakerService - Опросился 24 сервер
+2025-05-05 01:39:23 INFO  org.example.service.ApiTakerService - Опросился 25 сервер
+2025-05-05 01:39:24 INFO  org.example.service.ApiTakerService - Опросился 26 сервер
+2025-05-05 01:39:25 INFO  org.example.service.ApiTakerService - Опросился 27 сервер
+2025-05-05 01:39:25 INFO  org.example.service.ApiTakerService - Опросился 28 сервер
+2025-05-05 01:39:26 INFO  org.example.service.ApiTakerService - Опросился 29 сервер
+2025-05-05 01:39:27 INFO  org.example.service.ApiTakerService - Опросился 30 сервер
+2025-05-05 01:39:27 INFO  org.example.service.ApiTakerService - Опросился 31 сервер
+2025-05-05 01:39:27 INFO  org.example.service.ApiTakerService - Опрос api успешно завершен 01:39:27.929269
+2025-05-05 01:40:00 WARN  org.example.controller.TGBot - Не удалось выполнить SendMessage(chatId=828575026, messageThreadId=null, text=Сервер: 5
+Lue_Loe
+
+Business:
+id: 296 Закусочная 
+
+
+Сервер: 5
+Lofay_Salvatore
+
+Business:
+id: 185 Ларек с уличной едой 
+
+
+House:
+id: 306          id: 1496         id: 1497        
+id: 1498         id: 1499         id: 1500        
+id: 1501         id: 1502         id: 1503        
+
+
+Сервер: 5
+Cany_Castrello
+
+Business:
+id: 271 Закусочная 
+
+
+House:
+id: 837          
+
+Сервер: 5
+Aleks_Ment
+
+Business:
+id: 440 Электрокомпания 
+
+
+House:
+id: 27           id: 128          id: 222         
+id: 348          id: 353          id: 453         
+id: 702          id: 711          id: 948         
+id: 992          id: 993          id: 1208        
+id: 1375         id: 1466         id: 1524        
+
+
+Сервер: 5
+Paolo_Marino
+
+Business:
+id: 114 Закусочная 
+
+
+House:
+id: 622          id: 1245         
+
+Сервер: 5
+Shadow_Buzz
+
+Business:
+id: 216 Ларек с уличной едой 
+
+
+House:
+id: 440          id: 760          id: 1298        
+
+
+Сервер: 5
+Kachan_Jonson
+
+Business:
+id: 184 Ларек с уличной едой 
+
+
+House:
+id: 1337         
+
+Сервер: 5
+Lucas_Deluxe
+
+Business:
+id: 298 Магазин 24/7 
+
+
+Сервер: 5
+Page_Mortan
+
+Business:
+id: 201 Ларек с уличной едой 
+
+
+House:
+id: 1040         
+
+Сервер: 5
+Jhonathan_King
+
+Business:
+id: 58  Аренда транспорта 
+
+
+House:
+id: 242          
+
+Сервер: 5
+William_Wright
+
+Business:
+id: 175 Магазин 24/7 
+
+
+House:
+id: 1305         
+
+Сервер: 5
+Barry_Legenda
+
+Business:
+id: 171 Закусочная 
+
+
+House:
+id: 226          id: 1095         id: 1098        
+id: 1099         id: 1100         id: 1396        
+id: 1434         id: 1435         id: 1436        
+id: 1441         id: 1445         id: 1446        
+id: 1447         id: 1566         id: 1567        
+
+
+Сервер: 5
+Kane_Grand
+
+Business:
+id: 78  Закусочная 
+
+
+Сервер: 5
+Serega_Bidenko
+
+Business:
+id: 105 Магазин 24/7 
+
+
+House:
+id: 1361         id: 1671         
+
+Сервер: 5
+Paracetamol_Damnedz
+
+Business:
+id: 23  АЗС/Магазин механики 
+
+
+House:
+id: 203          id: 721          id: 1491        
+id: 1568         id: 1569         
+
+Сервер: 5
+Xyrman_Mandarinov
+
+Business:
+id: 256 Аренда сельхоз техники 
+
+
+House:
+id: 307          id: 641          id: 687         
+id: 688          id: 1164         id: 1166        
+id: 1177         
+
+Сервер: 5
+John_Deen
+
+Business:
+id: 267 Ларек с уличной едой 
+
+
+Сервер: 5
+Kaguya_Shinomiya
+
+Business:
+id: 131 Телефонная компания ЛВ 
+
+
+House:
+id: 2            
+
+Сервер: 5
+Kuroko_Phantom
+
+Business:
+id: 348 Магазин 24/7 
+
+
+Сервер: 5
+Stewart_LaMonte
+
+Business:
+id: 169 Закусочная 
+
+
+House:
+id: 110          id: 111          id: 112         
+id: 113          id: 114          id: 115         
+id: 574          id: 594          id: 945         
+id: 1289         id: 1750         
+
+Сервер: 5
+Stiven_Wockeez
+
+Business:
+id: 358 Закусочная 
+
+
+House:
+id: 104          id: 107          id: 545         
+id: 994          id: 996          id: 1539        
+
+
+Сервер: 5
+Ernesto_Liberty
+
+Business:
+id: 305 Авто Сервис 
+
+
+Сервер: 5
+Alex_Chumak
+
+Business:
+id: 437 Киоск   
+
+
+House:
+id: 364          id: 366          id: 368         
+id: 369          id: 370          id: 371         
+id: 373          id: 433          id: 434         
+id: 1038         id: 1492         id: 1611        
+id: 1612         
+
+Сервер: 5
+Noah_Aenami
+
+Business:
+id: 294 Закусочная 
+
+
+House:
+id: 191          id: 192          id: 193         
+id: 194          id: 195          id: 196         
+id: 213          id: 499          id: 1543        
+id: 1581         
+
+Сервер: 5
+Decoded_Feedback
+
+Business:
+id: 178 Амуниция/Тир 
+
+
+House:
+id: 286          id: 1163         id: 1580        
+
+
+Сервер: 5
+Raymond_Infamous
+
+Business:
+id: 288 АЗС/Магазин механики 
+
+
+House:
+id: 557          id: 1374         id: 1658        
+id: 1698         id: 1701         id: 1702        
+id: 1703         id: 1704         id: 1764        
+
+
+Сервер: 5
+Ryu_Oba
+
+Business:
+id: 251 АЗС/Магазин механики 
+
+
+House:
+id: 50           id: 51           id: 675         
+id: 958          id: 972          id: 1341        
+id: 1344         id: 1547         id: 1606        
+id: 1708         id: 1710         
+
+Сервер: 5
+Tommy_Conlin
+
+Business:
+id: 314 Авто Сервис 
+
+
+House:
+id: 1368         
+
+Сервер: 5
+Nastusha_Hohotao
+
+Business:
+id: 170 Закусочная 
+
+
+House:
+id: 1246         id: 1259         id: 1274        
+id: 1276         id: 1278         
+
+Сервер: 5
+Sanctus_Spiritus
+
+Business:
+id: 259 Закусочная 
+
+
+House:
+id: 719          id: 1679         
+
+Сервер: 5
+Sub_Zeroo
+
+Business:
+id: 293 Ларек с уличной едой 
+
+
+Сервер: 5
+Shark_Erikson
+
+Business:
+id: 109 Закусочная 
+
+
+House:
+id: 755          
+
+Сервер: 5
+Marco_Grava
+
+Business:
+id: 0   Амуниция/Тир 
+
+
+House:
+id: 13           id: 295          id: 296         
+id: 461          id: 476          id: 644         
+id: 651          id: 653          
+
+Сервер: 5
+Orange_Juice
+
+Business:
+id: 49  Закусочная 
+
+
+House:
+id: 1661         
+
+Сервер: 5
+Kiss_Brooks
+
+Business:
+id: 344 Нефтевышка 
+
+
+House:
+id: 516          
+
+Сервер: 5
+Shidzho_Okuyama
+
+Business:
+id: 343 Нефтевышка 
+
+
+House:
+id: 227          id: 695          id: 701         
+id: 703          id: 756          id: 919         
+id: 1296         id: 1312         id: 1360        
+id: 1464         id: 1559         id: 1725        
+
+
+Сервер: 5
+Yuki_Aenami
+
+Business:
+id: 352 Магазин аксессуаров 
+
+
+House:
+id: 1190         id: 1507         id: 1508        
+id: 1509         id: 1510         
+
+Сервер: 5
+James_Mariachi
+
+Business:
+id: 441 Электрокомпания 
+
+
+House:
+id: 52           id: 316          id: 345         
+id: 346          id: 351          id: 352         
+id: 357          id: 514          id: 1452        
+id: 1678         id: 1732         
+
+Сервер: 5
+Pakito_LaMorte
+
+Business:
+id: 150 Отель   
+
+
+Сервер: 5
+Nata_Sharova
+
+Business:
+id: 189 Ларек с уличной едой 
+
+
+House:
+id: 685          id: 709          id: 979         
+id: 1304         id: 1415         id: 1672        
+
+
+Сервер: 5
+Grand_Blumber
+
+Business:
+id: 191 Ларек с уличной едой 
+
+
+House:
+id: 458          id: 459          id: 487         
+id: 488          id: 1765         
+
+Сервер: 5
+Anthoni_Capone
+
+Business:
+id: 353 Магазин 24/7 
+
+
+House:
+id: 1176         id: 1769         
+
+Сервер: 5
+Scandal_Arcteryx
+
+Business:
+id: 219 Ларек с уличной едой 
+
+
+House:
+id: 1308         
+
+Сервер: 5
+Akio_Tagashiva
+
+Business:
+id: 30  АЗС/Магазин механики 
+
+
+House:
+id: 318          id: 319          id: 320         
+id: 325          id: 1564         id: 1645        
+
+
+Сервер: 5
+Stitch_Letov
+
+Business:
+id: 9   Магазин 24/7 
+
+
+House:
+id: 255          id: 263          id: 334         
+id: 421          id: 423          id: 624         
+id: 854          id: 876          id: 1019        
+id: 1036         id: 1064         id: 1073        
+id: 1085         id: 1314         id: 1706        
+
+
+Сервер: 5
+Caymon_Crystal
+
+Business:
+id: 356 Бар     
+
+
+House:
+id: 1239         
+
+Сервер: 5
+Vadus_Morelli
+
+Business:
+id: 249 АЗС/Магазин механики 
+
+
+Сервер: 5
+Hightower_Loranved
+
+Business:
+id: 250 АЗС/Магазин механики 
+
+
+Сервер: 5
+Anton_Porshe
+
+Business:
+id: 434 Киоск   
+
+
+House:
+id: 438          
+
+Сервер: 5
+Nikky_Death
+
+Business:
+id: 36  Закусочная 
+
+
+House:
+id: 6            id: 317          id: 347         
+id: 349          id: 350          id: 356         
+id: 1433         
+
+Сервер: 5
+Ruslan_White
+
+Business:
+id: 10  Магазин 24/7 
+
+
+Сервер: 5
+Vitaliy_Gess
+
+Business:
+id: 39  Аренда транспорта 
+
+
+House:
+id: 1680         id: 1752         
+
+Сервер: 5
+Jessie_Vatutin
+
+Business:
+id: 300 Отель   
+
+
+Сервер: 5
+Max_Arab
+
+Business:
+id: 217 Ларек с уличной едой 
+
+
+Сервер: 5
+Andre_Boroda
+
+Business:
+id: 186 Ларек с уличной едой 
+
+
+Сервер: 5
+Sanya_Turbina
+
+Business:
+id: 37  Закусочная 
+
+
+Сервер: 5
+Yoshiro_Ookami
+
+Business:
+id: 50  Закусочная 
+
+
+House:
+id: 181          id: 182          id: 183         
+id: 298          id: 302          id: 1411        
+
+
+Сервер: 5
+Jesus_Nachile
+
+Business:
+id: 24  АЗС/Магазин механики 
+
+
+Сервер: 5
+Jane_Ruiz
+
+Business:
+id: 38  Закусочная 
+
+
+House:
+id: 0            id: 395          id: 511         
+id: 746          id: 878          id: 1413        
+id: 1416         id: 1494         
+
+Сервер: 5
+Vlad_Tornerro
+
+Business:
+id: 247 Нефтевышка 
+
+
+House:
+id: 1061         
+
+Сервер: 5
+Moksy_Diez
+
+Business:
+id: 82  Закусочная 
+
+
+Сервер: 5
+Moore_Deluxe
+
+Business:
+id: 176 Магазин 24/7 
+
+
+House:
+id: 283          id: 519          
+
+Сервер: 5
+Dmitriy_Nyashka
+
+Business:
+id: 52  Аренда транспорта 
+
+
+House:
+id: 256          id: 902          
+
+Сервер: 5
+Epson_Brooks
+
+Business:
+id: 167 Закусочная 
+
+
+House:
+id: 427          id: 1634         
+
+Сервер: 5
+Ivan_Hentaev
+
+Business:
+id: 209 Ларек с уличной едой 
+
+
+House:
+id: 926          id: 1114         
+
+Сервер: 5
+Bonny_Keiner
+
+Business:
+id: 142 Отель   
+
+
+Сервер: 5
+Omega_Black
+
+Business:
+id: 79  Закусочная 
+
+
+House:
+id: 463          id: 465          id: 478         
+id: 481          id: 482          id: 483         
+id: 492          id: 1773         
+
+, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null, linkPreviewOptions=null, replyParameters=null)
+2025-05-05 01:40:35 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-05-05 01:40:35 INFO  o.s.s.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+2025-05-05 01:40:35 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2025-05-05 01:40:35 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-05-05 01:40:35 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2025-05-05 01:40:35 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-05 01:40:35 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-05-05 01:40:35 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-05-05 01:40:38 INFO  org.example.App - Starting App using Java 21.0.6 with PID 55865 (/Users/alex/Desktop/java/репозитории/проекты/checker/target/classes started by alex in /Users/alex/Desktop/java/репозитории/проекты/checker)
+2025-05-05 01:40:38 INFO  org.example.App - No active profile set, falling back to 1 default profile: "default"
+2025-05-05 01:40:38 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-05 01:40:39 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 2 JPA repository interfaces.
+2025-05-05 01:40:39 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-05 01:40:39 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-05-05 01:40:39 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-05-05 01:40:39 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-05 01:40:39 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-05 01:40:39 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@165614f5
+2025-05-05 01:40:39 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-05 01:40:39 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-05 01:40:39 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-05 01:40:39 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-05 01:40:39 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-05-05 01:40:41 INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2025-05-05 01:40:41 INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2025-05-05 01:40:41 INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2025-05-05 01:40:41 INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2025-05-05 01:40:41 INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2025-05-05 01:40:41 INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2025-05-05 01:40:41 INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2025-05-05 01:40:41 INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@28322fd3
+2025-05-05 01:40:41 INFO  o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2025-05-05 01:40:41 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2025-05-05 01:40:41 INFO  org.example.App - Started App in 2.607 seconds (process running for 3.037)
+2025-05-05 01:40:41 INFO  org.example.service.ApiTakerService - Начался опрос api 01:40:41.115846
+2025-05-05 01:40:42 INFO  org.example.service.ApiTakerService - Опросился 1 сервер
+2025-05-05 01:40:43 INFO  org.example.service.ApiTakerService - Опросился 2 сервер
+2025-05-05 01:40:44 INFO  org.example.service.ApiTakerService - Опросился 3 сервер
+2025-05-05 01:40:45 INFO  org.example.service.ApiTakerService - Опросился 4 сервер
+2025-05-05 01:40:45 INFO  org.example.service.ApiTakerService - Опросился 5 сервер
+2025-05-05 01:40:46 INFO  org.example.service.ApiTakerService - Опросился 6 сервер
+2025-05-05 01:40:47 INFO  org.example.service.ApiTakerService - Опросился 7 сервер
+2025-05-05 01:40:47 INFO  org.example.service.ApiTakerService - Опросился 8 сервер
+2025-05-05 01:40:48 INFO  org.example.service.ApiTakerService - Опросился 9 сервер
+2025-05-05 01:40:49 INFO  org.example.service.ApiTakerService - Опросился 10 сервер
+2025-05-05 01:40:50 INFO  org.example.service.ApiTakerService - Опросился 11 сервер
+2025-05-05 01:40:50 INFO  org.example.service.ApiTakerService - Опросился 12 сервер
+2025-05-05 01:41:00 INFO  org.example.service.ApiTakerService - Опросился 13 сервер
+2025-05-05 01:41:02 WARN  org.example.controller.TGBot - Не удалось выполнить SendMessage(chatId=828575026, messageThreadId=null, text=Сервер: 5
+Lue_Loe
+
+Business:
+id: 296 Закусочная 
+
+
+Сервер: 5
+Lofay_Salvatore
+
+Business:
+id: 185 Ларек с уличной едой 
+
+
+House:
+id: 306          id: 1496         id: 1497        
+id: 1498         id: 1499         id: 1500        
+id: 1501         id: 1502         id: 1503        
+
+
+Сервер: 5
+Cany_Castrello
+
+Business:
+id: 271 Закусочная 
+
+
+House:
+id: 837          
+
+Сервер: 5
+Aleks_Ment
+
+Business:
+id: 440 Электрокомпания 
+
+
+House:
+id: 27           id: 128          id: 222         
+id: 348          id: 353          id: 453         
+id: 702          id: 711          id: 948         
+id: 992          id: 993          id: 1208        
+id: 1375         id: 1466         id: 1524        
+
+
+Сервер: 5
+Paolo_Marino
+
+Business:
+id: 114 Закусочная 
+
+
+House:
+id: 622          id: 1245         
+
+Сервер: 5
+Shadow_Buzz
+
+Business:
+id: 216 Ларек с уличной едой 
+
+
+House:
+id: 440          id: 760          id: 1298        
+
+
+Сервер: 5
+Kachan_Jonson
+
+Business:
+id: 184 Ларек с уличной едой 
+
+
+House:
+id: 1337         
+
+Сервер: 5
+Lucas_Deluxe
+
+Business:
+id: 298 Магазин 24/7 
+
+
+Сервер: 5
+Page_Mortan
+
+Business:
+id: 201 Ларек с уличной едой 
+
+
+House:
+id: 1040         
+
+Сервер: 5
+Jhonathan_King
+
+Business:
+id: 58  Аренда транспорта 
+
+
+House:
+id: 242          
+
+Сервер: 5
+William_Wright
+
+Business:
+id: 175 Магазин 24/7 
+
+
+House:
+id: 1305         
+
+Сервер: 5
+Barry_Legenda
+
+Business:
+id: 171 Закусочная 
+
+
+House:
+id: 226          id: 1095         id: 1098        
+id: 1099         id: 1100         id: 1396        
+id: 1434         id: 1435         id: 1436        
+id: 1441         id: 1445         id: 1446        
+id: 1447         id: 1566         id: 1567        
+
+
+Сервер: 5
+Kane_Grand
+
+Business:
+id: 78  Закусочная 
+
+
+Сервер: 5
+Serega_Bidenko
+
+Business:
+id: 105 Магазин 24/7 
+
+
+House:
+id: 1361         id: 1671         
+
+Сервер: 5
+Paracetamol_Damnedz
+
+Business:
+id: 23  АЗС/Магазин механики 
+
+
+House:
+id: 203          id: 721          id: 1491        
+id: 1568         id: 1569         
+
+Сервер: 5
+Xyrman_Mandarinov
+
+Business:
+id: 256 Аренда сельхоз техники 
+
+
+House:
+id: 307          id: 641          id: 687         
+id: 688          id: 1164         id: 1166        
+id: 1177         
+
+Сервер: 5
+John_Deen
+
+Business:
+id: 267 Ларек с уличной едой 
+
+
+Сервер: 5
+Kaguya_Shinomiya
+
+Business:
+id: 131 Телефонная компания ЛВ 
+
+
+House:
+id: 2            
+
+Сервер: 5
+Kuroko_Phantom
+
+Business:
+id: 348 Магазин 24/7 
+
+
+Сервер: 5
+Stewart_LaMonte
+
+Business:
+id: 169 Закусочная 
+
+
+House:
+id: 110          id: 111          id: 112         
+id: 113          id: 114          id: 115         
+id: 574          id: 594          id: 945         
+id: 1289         id: 1750         
+
+Сервер: 5
+Stiven_Wockeez
+
+Business:
+id: 358 Закусочная 
+
+
+House:
+id: 104          id: 107          id: 545         
+id: 994          id: 996          id: 1539        
+
+
+Сервер: 5
+Ernesto_Liberty
+
+Business:
+id: 305 Авто Сервис 
+
+
+Сервер: 5
+Alex_Chumak
+
+Business:
+id: 437 Киоск   
+
+
+House:
+id: 364          id: 366          id: 368         
+id: 369          id: 370          id: 371         
+id: 373          id: 433          id: 434         
+id: 1038         id: 1492         id: 1611        
+id: 1612         
+
+Сервер: 5
+Noah_Aenami
+
+Business:
+id: 294 Закусочная 
+
+
+House:
+id: 191          id: 192          id: 193         
+id: 194          id: 195          id: 196         
+id: 213          id: 499          id: 1543        
+id: 1581         
+
+Сервер: 5
+Decoded_Feedback
+
+Business:
+id: 178 Амуниция/Тир 
+
+
+House:
+id: 286          id: 1163         id: 1580        
+
+
+Сервер: 5
+Raymond_Infamous
+
+Business:
+id: 288 АЗС/Магазин механики 
+
+
+House:
+id: 557          id: 1374         id: 1658        
+id: 1698         id: 1701         id: 1702        
+id: 1703         id: 1704         id: 1764        
+
+
+Сервер: 5
+Ryu_Oba
+
+Business:
+id: 251 АЗС/Магазин механики 
+
+
+House:
+id: 50           id: 51           id: 675         
+id: 958          id: 972          id: 1341        
+id: 1344         id: 1547         id: 1606        
+id: 1708         id: 1710         
+
+Сервер: 5
+Tommy_Conlin
+
+Business:
+id: 314 Авто Сервис 
+
+
+House:
+id: 1368         
+
+Сервер: 5
+Nastusha_Hohotao
+
+Business:
+id: 170 Закусочная 
+
+
+House:
+id: 1246         id: 1259         id: 1274        
+id: 1276         id: 1278         
+
+Сервер: 5
+Sanctus_Spiritus
+
+Business:
+id: 259 Закусочная 
+
+
+House:
+id: 719          id: 1679         
+
+Сервер: 5
+Sub_Zeroo
+
+Business:
+id: 293 Ларек с уличной едой 
+
+
+Сервер: 5
+Shark_Erikson
+
+Business:
+id: 109 Закусочная 
+
+
+House:
+id: 755          
+
+Сервер: 5
+Marco_Grava
+
+Business:
+id: 0   Амуниция/Тир 
+
+
+House:
+id: 13           id: 295          id: 296         
+id: 461          id: 476          id: 644         
+id: 651          id: 653          
+
+Сервер: 5
+Orange_Juice
+
+Business:
+id: 49  Закусочная 
+
+
+House:
+id: 1661         
+
+Сервер: 5
+Kiss_Brooks
+
+Business:
+id: 344 Нефтевышка 
+
+
+House:
+id: 516          
+
+Сервер: 5
+Shidzho_Okuyama
+
+Business:
+id: 343 Нефтевышка 
+
+
+House:
+id: 227          id: 695          id: 701         
+id: 703          id: 756          id: 919         
+id: 1296         id: 1312         id: 1360        
+id: 1464         id: 1559         id: 1725        
+
+
+Сервер: 5
+Yuki_Aenami
+
+Business:
+id: 352 Магазин аксессуаров 
+
+
+House:
+id: 1190         id: 1507         id: 1508        
+id: 1509         id: 1510         
+
+Сервер: 5
+James_Mariachi
+
+Business:
+id: 441 Электрокомпания 
+
+
+House:
+id: 52           id: 316          id: 345         
+id: 346          id: 351          id: 352         
+id: 357          id: 514          id: 1452        
+id: 1678         id: 1732         
+
+Сервер: 5
+Pakito_LaMorte
+
+Business:
+id: 150 Отель   
+
+
+Сервер: 5
+Nata_Sharova
+
+Business:
+id: 189 Ларек с уличной едой 
+
+
+House:
+id: 685          id: 709          id: 979         
+id: 1304         id: 1415         id: 1672        
+
+
+Сервер: 5
+Grand_Blumber
+
+Business:
+id: 191 Ларек с уличной едой 
+
+
+House:
+id: 458          id: 459          id: 487         
+id: 488          id: 1765         
+
+Сервер: 5
+Anthoni_Capone
+
+Business:
+id: 353 Магазин 24/7 
+
+
+House:
+id: 1176         id: 1769         
+
+Сервер: 5
+Scandal_Arcteryx
+
+Business:
+id: 219 Ларек с уличной едой 
+
+
+House:
+id: 1308         
+
+Сервер: 5
+Akio_Tagashiva
+
+Business:
+id: 30  АЗС/Магазин механики 
+
+
+House:
+id: 318          id: 319          id: 320         
+id: 325          id: 1564         id: 1645        
+
+
+Сервер: 5
+Stitch_Letov
+
+Business:
+id: 9   Магазин 24/7 
+
+
+House:
+id: 255          id: 263          id: 334         
+id: 421          id: 423          id: 624         
+id: 854          id: 876          id: 1019        
+id: 1036         id: 1064         id: 1073        
+id: 1085         id: 1314         id: 1706        
+
+
+Сервер: 5
+Caymon_Crystal
+
+Business:
+id: 356 Бар     
+
+
+House:
+id: 1239         
+
+Сервер: 5
+Vadus_Morelli
+
+Business:
+id: 249 АЗС/Магазин механики 
+
+
+Сервер: 5
+Hightower_Loranved
+
+Business:
+id: 250 АЗС/Магазин механики 
+
+
+Сервер: 5
+Anton_Porshe
+
+Business:
+id: 434 Киоск   
+
+
+House:
+id: 438          
+
+Сервер: 5
+Nikky_Death
+
+Business:
+id: 36  Закусочная 
+
+
+House:
+id: 6            id: 317          id: 347         
+id: 349          id: 350          id: 356         
+id: 1433         
+
+Сервер: 5
+Ruslan_White
+
+Business:
+id: 10  Магазин 24/7 
+
+
+Сервер: 5
+Vitaliy_Gess
+
+Business:
+id: 39  Аренда транспорта 
+
+
+House:
+id: 1680         id: 1752         
+
+Сервер: 5
+Jessie_Vatutin
+
+Business:
+id: 300 Отель   
+
+
+Сервер: 5
+Max_Arab
+
+Business:
+id: 217 Ларек с уличной едой 
+
+
+Сервер: 5
+Andre_Boroda
+
+Business:
+id: 186 Ларек с уличной едой 
+
+
+Сервер: 5
+Sanya_Turbina
+
+Business:
+id: 37  Закусочная 
+
+
+Сервер: 5
+Yoshiro_Ookami
+
+Business:
+id: 50  Закусочная 
+
+
+House:
+id: 181          id: 182          id: 183         
+id: 298          id: 302          id: 1411        
+
+
+Сервер: 5
+Jesus_Nachile
+
+Business:
+id: 24  АЗС/Магазин механики 
+
+
+Сервер: 5
+Jane_Ruiz
+
+Business:
+id: 38  Закусочная 
+
+
+House:
+id: 0            id: 395          id: 511         
+id: 746          id: 878          id: 1413        
+id: 1416         id: 1494         
+
+Сервер: 5
+Vlad_Tornerro
+
+Business:
+id: 247 Нефтевышка 
+
+
+House:
+id: 1061         
+
+Сервер: 5
+Moksy_Diez
+
+Business:
+id: 82  Закусочная 
+
+
+Сервер: 5
+Moore_Deluxe
+
+Business:
+id: 176 Магазин 24/7 
+
+
+House:
+id: 283          id: 519          
+
+Сервер: 5
+Dmitriy_Nyashka
+
+Business:
+id: 52  Аренда транспорта 
+
+
+House:
+id: 256          id: 902          
+
+Сервер: 5
+Epson_Brooks
+
+Business:
+id: 167 Закусочная 
+
+
+House:
+id: 427          id: 1634         
+
+Сервер: 5
+Ivan_Hentaev
+
+Business:
+id: 209 Ларек с уличной едой 
+
+
+House:
+id: 926          id: 1114         
+
+Сервер: 5
+Bonny_Keiner
+
+Business:
+id: 142 Отель   
+
+
+Сервер: 5
+Omega_Black
+
+Business:
+id: 79  Закусочная 
+
+
+House:
+id: 463          id: 465          id: 478         
+id: 481          id: 482          id: 483         
+id: 492          id: 1773         
+
+, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null, linkPreviewOptions=null, replyParameters=null)
+2025-05-05 01:41:17 INFO  org.example.service.ApiTakerService - Опросился 14 сервер
+2025-05-05 01:41:18 INFO  org.example.service.ApiTakerService - Опросился 15 сервер
+2025-05-05 01:41:19 INFO  org.example.service.ApiTakerService - Опросился 16 сервер
+2025-05-05 01:41:20 INFO  org.example.service.ApiTakerService - Опросился 17 сервер
+2025-05-05 01:41:20 INFO  org.example.service.ApiTakerService - Опросился 18 сервер
+2025-05-05 01:41:21 INFO  org.example.service.ApiTakerService - Опросился 19 сервер
+2025-05-05 01:41:21 INFO  org.example.service.ApiTakerService - Опросился 20 сервер
+2025-05-05 01:41:22 INFO  org.example.service.ApiTakerService - Опросился 21 сервер
+2025-05-05 01:41:23 INFO  org.example.service.ApiTakerService - Опросился 22 сервер
+2025-05-05 01:41:23 INFO  org.example.service.ApiTakerService - Опросился 23 сервер
+2025-05-05 01:41:24 INFO  org.example.service.ApiTakerService - Опросился 24 сервер
+2025-05-05 01:41:25 INFO  org.example.service.ApiTakerService - Опросился 25 сервер
+2025-05-05 01:41:25 INFO  org.example.service.ApiTakerService - Опросился 26 сервер
+2025-05-05 01:41:26 INFO  org.example.service.ApiTakerService - Опросился 27 сервер
+2025-05-05 01:41:27 INFO  org.example.service.ApiTakerService - Опросился 28 сервер
+2025-05-05 01:41:27 INFO  org.example.service.ApiTakerService - Опросился 29 сервер
+2025-05-05 01:41:28 INFO  org.example.service.ApiTakerService - Опросился 30 сервер
+2025-05-05 01:41:28 INFO  org.example.service.ApiTakerService - Опросился 31 сервер
+2025-05-05 01:41:28 INFO  org.example.service.ApiTakerService - Опрос api успешно завершен 01:41:28.965228
+2025-05-05 01:42:02 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47s960ms).
+2025-05-05 01:42:42 WARN  org.example.controller.TGBot - Не удалось выполнить SendMessage(chatId=828575026, messageThreadId=null, text=Сервер: 5
+Lue_Loe
+
+Business:
+id: 296 Закусочная 
+
+
+Сервер: 5
+Lofay_Salvatore
+
+Business:
+id: 185 Ларек с уличной едой 
+
+
+House:
+id: 306          id: 1496         id: 1497        
+id: 1498         id: 1499         id: 1500        
+id: 1501         id: 1502         id: 1503        
+
+
+Сервер: 5
+Cany_Castrello
+
+Business:
+id: 271 Закусочная 
+
+
+House:
+id: 837          
+
+Сервер: 5
+Aleks_Ment
+
+Business:
+id: 440 Электрокомпания 
+
+
+House:
+id: 27           id: 128          id: 222         
+id: 348          id: 353          id: 453         
+id: 702          id: 711          id: 948         
+id: 992          id: 993          id: 1208        
+id: 1375         id: 1466         id: 1524        
+
+
+Сервер: 5
+Paolo_Marino
+
+Business:
+id: 114 Закусочная 
+
+
+House:
+id: 622          id: 1245         
+
+Сервер: 5
+Shadow_Buzz
+
+Business:
+id: 216 Ларек с уличной едой 
+
+
+House:
+id: 440          id: 760          id: 1298        
+
+
+Сервер: 5
+Kachan_Jonson
+
+Business:
+id: 184 Ларек с уличной едой 
+
+
+House:
+id: 1337         
+
+Сервер: 5
+Lucas_Deluxe
+
+Business:
+id: 298 Магазин 24/7 
+
+
+Сервер: 5
+Page_Mortan
+
+Business:
+id: 201 Ларек с уличной едой 
+
+
+House:
+id: 1040         
+
+Сервер: 5
+Jhonathan_King
+
+Business:
+id: 58  Аренда транспорта 
+
+
+House:
+id: 242          
+
+Сервер: 5
+William_Wright
+
+Business:
+id: 175 Магазин 24/7 
+
+
+House:
+id: 1305         
+
+Сервер: 5
+Barry_Legenda
+
+Business:
+id: 171 Закусочная 
+
+
+House:
+id: 226          id: 1095         id: 1098        
+id: 1099         id: 1100         id: 1396        
+id: 1434         id: 1435         id: 1436        
+id: 1441         id: 1445         id: 1446        
+id: 1447         id: 1566         id: 1567        
+
+
+Сервер: 5
+Kane_Grand
+
+Business:
+id: 78  Закусочная 
+
+
+Сервер: 5
+Serega_Bidenko
+
+Business:
+id: 105 Магазин 24/7 
+
+
+House:
+id: 1361         id: 1671         
+
+Сервер: 5
+Paracetamol_Damnedz
+
+Business:
+id: 23  АЗС/Магазин механики 
+
+
+House:
+id: 203          id: 721          id: 1491        
+id: 1568         id: 1569         
+
+Сервер: 5
+Xyrman_Mandarinov
+
+Business:
+id: 256 Аренда сельхоз техники 
+
+
+House:
+id: 307          id: 641          id: 687         
+id: 688          id: 1164         id: 1166        
+id: 1177         
+
+Сервер: 5
+John_Deen
+
+Business:
+id: 267 Ларек с уличной едой 
+
+
+Сервер: 5
+Kaguya_Shinomiya
+
+Business:
+id: 131 Телефонная компания ЛВ 
+
+
+House:
+id: 2            
+
+Сервер: 5
+Kuroko_Phantom
+
+Business:
+id: 348 Магазин 24/7 
+
+
+Сервер: 5
+Stewart_LaMonte
+
+Business:
+id: 169 Закусочная 
+
+
+House:
+id: 110          id: 111          id: 112         
+id: 113          id: 114          id: 115         
+id: 574          id: 594          id: 945         
+id: 1289         id: 1750         
+
+Сервер: 5
+Stiven_Wockeez
+
+Business:
+id: 358 Закусочная 
+
+
+House:
+id: 104          id: 107          id: 545         
+id: 994          id: 996          id: 1539        
+
+
+Сервер: 5
+Ernesto_Liberty
+
+Business:
+id: 305 Авто Сервис 
+
+
+Сервер: 5
+Alex_Chumak
+
+Business:
+id: 437 Киоск   
+
+
+House:
+id: 364          id: 366          id: 368         
+id: 369          id: 370          id: 371         
+id: 373          id: 433          id: 434         
+id: 1038         id: 1492         id: 1611        
+id: 1612         
+
+Сервер: 5
+Noah_Aenami
+
+Business:
+id: 294 Закусочная 
+
+
+House:
+id: 191          id: 192          id: 193         
+id: 194          id: 195          id: 196         
+id: 213          id: 499          id: 1543        
+id: 1581         
+
+Сервер: 5
+Decoded_Feedback
+
+Business:
+id: 178 Амуниция/Тир 
+
+
+House:
+id: 286          id: 1163         id: 1580        
+
+
+Сервер: 5
+Raymond_Infamous
+
+Business:
+id: 288 АЗС/Магазин механики 
+
+
+House:
+id: 557          id: 1374         id: 1658        
+id: 1698         id: 1701         id: 1702        
+id: 1703         id: 1704         id: 1764        
+
+
+Сервер: 5
+Ryu_Oba
+
+Business:
+id: 251 АЗС/Магазин механики 
+
+
+House:
+id: 50           id: 51           id: 675         
+id: 958          id: 972          id: 1341        
+id: 1344         id: 1547         id: 1606        
+id: 1708         id: 1710         
+
+Сервер: 5
+Tommy_Conlin
+
+Business:
+id: 314 Авто Сервис 
+
+
+House:
+id: 1368         
+
+Сервер: 5
+Nastusha_Hohotao
+
+Business:
+id: 170 Закусочная 
+
+
+House:
+id: 1246         id: 1259         id: 1274        
+id: 1276         id: 1278         
+
+Сервер: 5
+Sanctus_Spiritus
+
+Business:
+id: 259 Закусочная 
+
+
+House:
+id: 719          id: 1679         
+
+Сервер: 5
+Sub_Zeroo
+
+Business:
+id: 293 Ларек с уличной едой 
+
+
+Сервер: 5
+Shark_Erikson
+
+Business:
+id: 109 Закусочная 
+
+
+House:
+id: 755          
+
+Сервер: 5
+Marco_Grava
+
+Business:
+id: 0   Амуниция/Тир 
+
+
+House:
+id: 13           id: 295          id: 296         
+id: 461          id: 476          id: 644         
+id: 651          id: 653          
+
+Сервер: 5
+Orange_Juice
+
+Business:
+id: 49  Закусочная 
+
+
+House:
+id: 1661         
+
+Сервер: 5
+Kiss_Brooks
+
+Business:
+id: 344 Нефтевышка 
+
+
+House:
+id: 516          
+
+Сервер: 5
+Shidzho_Okuyama
+
+Business:
+id: 343 Нефтевышка 
+
+
+House:
+id: 227          id: 695          id: 701         
+id: 703          id: 756          id: 919         
+id: 1296         id: 1312         id: 1360        
+id: 1464         id: 1559         id: 1725        
+
+
+Сервер: 5
+Yuki_Aenami
+
+Business:
+id: 352 Магазин аксессуаров 
+
+
+House:
+id: 1190         id: 1507         id: 1508        
+id: 1509         id: 1510         
+
+Сервер: 5
+James_Mariachi
+
+Business:
+id: 441 Электрокомпания 
+
+
+House:
+id: 52           id: 316          id: 345         
+id: 346          id: 351          id: 352         
+id: 357          id: 514          id: 1452        
+id: 1678         id: 1732         
+
+Сервер: 5
+Pakito_LaMorte
+
+Business:
+id: 150 Отель   
+
+
+Сервер: 5
+Nata_Sharova
+
+Business:
+id: 189 Ларек с уличной едой 
+
+
+House:
+id: 685          id: 709          id: 979         
+id: 1304         id: 1415         id: 1672        
+
+
+Сервер: 5
+Grand_Blumber
+
+Business:
+id: 191 Ларек с уличной едой 
+
+
+House:
+id: 458          id: 459          id: 487         
+id: 488          id: 1765         
+
+Сервер: 5
+Anthoni_Capone
+
+Business:
+id: 353 Магазин 24/7 
+
+
+House:
+id: 1176         id: 1769         
+
+Сервер: 5
+Scandal_Arcteryx
+
+Business:
+id: 219 Ларек с уличной едой 
+
+
+House:
+id: 1308         
+
+Сервер: 5
+Akio_Tagashiva
+
+Business:
+id: 30  АЗС/Магазин механики 
+
+
+House:
+id: 318          id: 319          id: 320         
+id: 325          id: 1564         id: 1645        
+
+
+Сервер: 5
+Stitch_Letov
+
+Business:
+id: 9   Магазин 24/7 
+
+
+House:
+id: 255          id: 263          id: 334         
+id: 421          id: 423          id: 624         
+id: 854          id: 876          id: 1019        
+id: 1036         id: 1064         id: 1073        
+id: 1085         id: 1314         id: 1706        
+
+
+Сервер: 5
+Caymon_Crystal
+
+Business:
+id: 356 Бар     
+
+
+House:
+id: 1239         
+
+Сервер: 5
+Vadus_Morelli
+
+Business:
+id: 249 АЗС/Магазин механики 
+
+
+Сервер: 5
+Hightower_Loranved
+
+Business:
+id: 250 АЗС/Магазин механики 
+
+
+Сервер: 5
+Anton_Porshe
+
+Business:
+id: 434 Киоск   
+
+
+House:
+id: 438          
+
+Сервер: 5
+Nikky_Death
+
+Business:
+id: 36  Закусочная 
+
+
+House:
+id: 6            id: 317          id: 347         
+id: 349          id: 350          id: 356         
+id: 1433         
+
+Сервер: 5
+Ruslan_White
+
+Business:
+id: 10  Магазин 24/7 
+
+
+Сервер: 5
+Vitaliy_Gess
+
+Business:
+id: 39  Аренда транспорта 
+
+
+House:
+id: 1680         id: 1752         
+
+Сервер: 5
+Jessie_Vatutin
+
+Business:
+id: 300 Отель   
+
+
+Сервер: 5
+Max_Arab
+
+Business:
+id: 217 Ларек с уличной едой 
+
+
+Сервер: 5
+Andre_Boroda
+
+Business:
+id: 186 Ларек с уличной едой 
+
+
+Сервер: 5
+Sanya_Turbina
+
+Business:
+id: 37  Закусочная 
+
+
+Сервер: 5
+Yoshiro_Ookami
+
+Business:
+id: 50  Закусочная 
+
+
+House:
+id: 181          id: 182          id: 183         
+id: 298          id: 302          id: 1411        
+
+
+Сервер: 5
+Jesus_Nachile
+
+Business:
+id: 24  АЗС/Магазин механики 
+
+
+Сервер: 5
+Jane_Ruiz
+
+Business:
+id: 38  Закусочная 
+
+
+House:
+id: 0            id: 395          id: 511         
+id: 746          id: 878          id: 1413        
+id: 1416         id: 1494         
+
+Сервер: 5
+Vlad_Tornerro
+
+Business:
+id: 247 Нефтевышка 
+
+
+House:
+id: 1061         
+
+Сервер: 5
+Moksy_Diez
+
+Business:
+id: 82  Закусочная 
+
+
+Сервер: 5
+Moore_Deluxe
+
+Business:
+id: 176 Магазин 24/7 
+
+
+House:
+id: 283          id: 519          
+
+Сервер: 5
+Dmitriy_Nyashka
+
+Business:
+id: 52  Аренда транспорта 
+
+
+House:
+id: 256          id: 902          
+
+Сервер: 5
+Epson_Brooks
+
+Business:
+id: 167 Закусочная 
+
+
+House:
+id: 427          id: 1634         
+
+Сервер: 5
+Ivan_Hentaev
+
+Business:
+id: 209 Ларек с уличной едой 
+
+
+House:
+id: 926          id: 1114         
+
+Сервер: 5
+Bonny_Keiner
+
+Business:
+id: 142 Отель   
+
+
+Сервер: 5
+Omega_Black
+
+Business:
+id: 79  Закусочная 
+
+
+House:
+id: 463          id: 465          id: 478         
+id: 481          id: 482          id: 483         
+id: 492          id: 1773         
+
+, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null, linkPreviewOptions=null, replyParameters=null)
+2025-05-05 01:44:30 WARN  org.example.controller.TGBot - Не удалось выполнить SendMessage(chatId=828575026, messageThreadId=null, text=Сервер: 5
+Lue_Loe
+
+Business:
+id: 296 Закусочная 
+
+
+Сервер: 5
+Lofay_Salvatore
+
+Business:
+id: 185 Ларек с уличной едой 
+
+
+House:
+id: 306          id: 1496         id: 1497        
+id: 1498         id: 1499         id: 1500        
+id: 1501         id: 1502         id: 1503        
+
+
+Сервер: 5
+Cany_Castrello
+
+Business:
+id: 271 Закусочная 
+
+
+House:
+id: 837          
+
+Сервер: 5
+Aleks_Ment
+
+Business:
+id: 440 Электрокомпания 
+
+
+House:
+id: 27           id: 128          id: 222         
+id: 348          id: 353          id: 453         
+id: 702          id: 711          id: 948         
+id: 992          id: 993          id: 1208        
+id: 1375         id: 1466         id: 1524        
+
+
+Сервер: 5
+Paolo_Marino
+
+Business:
+id: 114 Закусочная 
+
+
+House:
+id: 622          id: 1245         
+
+Сервер: 5
+Shadow_Buzz
+
+Business:
+id: 216 Ларек с уличной едой 
+
+
+House:
+id: 440          id: 760          id: 1298        
+
+
+Сервер: 5
+Kachan_Jonson
+
+Business:
+id: 184 Ларек с уличной едой 
+
+
+House:
+id: 1337         
+
+Сервер: 5
+Lucas_Deluxe
+
+Business:
+id: 298 Магазин 24/7 
+
+
+Сервер: 5
+Page_Mortan
+
+Business:
+id: 201 Ларек с уличной едой 
+
+
+House:
+id: 1040         
+
+Сервер: 5
+Jhonathan_King
+
+Business:
+id: 58  Аренда транспорта 
+
+
+House:
+id: 242          
+
+Сервер: 5
+William_Wright
+
+Business:
+id: 175 Магазин 24/7 
+
+
+House:
+id: 1305         
+
+Сервер: 5
+Barry_Legenda
+
+Business:
+id: 171 Закусочная 
+
+
+House:
+id: 226          id: 1095         id: 1098        
+id: 1099         id: 1100         id: 1396        
+id: 1434         id: 1435         id: 1436        
+id: 1441         id: 1445         id: 1446        
+id: 1447         id: 1566         id: 1567        
+
+
+Сервер: 5
+Kane_Grand
+
+Business:
+id: 78  Закусочная 
+
+
+Сервер: 5
+Serega_Bidenko
+
+Business:
+id: 105 Магазин 24/7 
+
+
+House:
+id: 1361         id: 1671         
+
+Сервер: 5
+Paracetamol_Damnedz
+
+Business:
+id: 23  АЗС/Магазин механики 
+
+
+House:
+id: 203          id: 721          id: 1491        
+id: 1568         id: 1569         
+
+Сервер: 5
+Xyrman_Mandarinov
+
+Business:
+id: 256 Аренда сельхоз техники 
+
+
+House:
+id: 307          id: 641          id: 687         
+id: 688          id: 1164         id: 1166        
+id: 1177         
+
+Сервер: 5
+John_Deen
+
+Business:
+id: 267 Ларек с уличной едой 
+
+
+Сервер: 5
+Kaguya_Shinomiya
+
+Business:
+id: 131 Телефонная компания ЛВ 
+
+
+House:
+id: 2            
+
+Сервер: 5
+Kuroko_Phantom
+
+Business:
+id: 348 Магазин 24/7 
+
+
+Сервер: 5
+Stewart_LaMonte
+
+Business:
+id: 169 Закусочная 
+
+
+House:
+id: 110          id: 111          id: 112         
+id: 113          id: 114          id: 115         
+id: 574          id: 594          id: 945         
+id: 1289         id: 1750         
+
+Сервер: 5
+Stiven_Wockeez
+
+Business:
+id: 358 Закусочная 
+
+
+House:
+id: 104          id: 107          id: 545         
+id: 994          id: 996          id: 1539        
+
+
+Сервер: 5
+Ernesto_Liberty
+
+Business:
+id: 305 Авто Сервис 
+
+
+Сервер: 5
+Alex_Chumak
+
+Business:
+id: 437 Киоск   
+
+
+House:
+id: 364          id: 366          id: 368         
+id: 369          id: 370          id: 371         
+id: 373          id: 433          id: 434         
+id: 1038         id: 1492         id: 1611        
+id: 1612         
+
+Сервер: 5
+Noah_Aenami
+
+Business:
+id: 294 Закусочная 
+
+
+House:
+id: 191          id: 192          id: 193         
+id: 194          id: 195          id: 196         
+id: 213          id: 499          id: 1543        
+id: 1581         
+
+Сервер: 5
+Decoded_Feedback
+
+Business:
+id: 178 Амуниция/Тир 
+
+
+House:
+id: 286          id: 1163         id: 1580        
+
+
+Сервер: 5
+Raymond_Infamous
+
+Business:
+id: 288 АЗС/Магазин механики 
+
+
+House:
+id: 557          id: 1374         id: 1658        
+id: 1698         id: 1701         id: 1702        
+id: 1703         id: 1704         id: 1764        
+
+
+Сервер: 5
+Ryu_Oba
+
+Business:
+id: 251 АЗС/Магазин механики 
+
+
+House:
+id: 50           id: 51           id: 675         
+id: 958          id: 972          id: 1341        
+id: 1344         id: 1547         id: 1606        
+id: 1708         id: 1710         
+
+Сервер: 5
+Tommy_Conlin
+
+Business:
+id: 314 Авто Сервис 
+
+
+House:
+id: 1368         
+
+Сервер: 5
+Nastusha_Hohotao
+
+Business:
+id: 170 Закусочная 
+
+
+House:
+id: 1246         id: 1259         id: 1274        
+id: 1276         id: 1278         
+
+Сервер: 5
+Sanctus_Spiritus
+
+Business:
+id: 259 Закусочная 
+
+
+House:
+id: 719          id: 1679         
+
+Сервер: 5
+Sub_Zeroo
+
+Business:
+id: 293 Ларек с уличной едой 
+
+
+Сервер: 5
+Shark_Erikson
+
+Business:
+id: 109 Закусочная 
+
+
+House:
+id: 755          
+
+Сервер: 5
+Marco_Grava
+
+Business:
+id: 0   Амуниция/Тир 
+
+
+House:
+id: 13           id: 295          id: 296         
+id: 461          id: 476          id: 644         
+id: 651          id: 653          
+
+Сервер: 5
+Orange_Juice
+
+Business:
+id: 49  Закусочная 
+
+
+House:
+id: 1661         
+
+Сервер: 5
+Kiss_Brooks
+
+Business:
+id: 344 Нефтевышка 
+
+
+House:
+id: 516          
+
+Сервер: 5
+Shidzho_Okuyama
+
+Business:
+id: 343 Нефтевышка 
+
+
+House:
+id: 227          id: 695          id: 701         
+id: 703          id: 756          id: 919         
+id: 1296         id: 1312         id: 1360        
+id: 1464         id: 1559         id: 1725        
+
+
+Сервер: 5
+Yuki_Aenami
+
+Business:
+id: 352 Магазин аксессуаров 
+
+
+House:
+id: 1190         id: 1507         id: 1508        
+id: 1509         id: 1510         
+
+Сервер: 5
+James_Mariachi
+
+Business:
+id: 441 Электрокомпания 
+
+
+House:
+id: 52           id: 316          id: 345         
+id: 346          id: 351          id: 352         
+id: 357          id: 514          id: 1452        
+id: 1678         id: 1732         
+
+Сервер: 5
+Pakito_LaMorte
+
+Business:
+id: 150 Отель   
+
+
+Сервер: 5
+Nata_Sharova
+
+Business:
+id: 189 Ларек с уличной едой 
+
+
+House:
+id: 685          id: 709          id: 979         
+id: 1304         id: 1415         id: 1672        
+
+
+Сервер: 5
+Grand_Blumber
+
+Business:
+id: 191 Ларек с уличной едой 
+
+
+House:
+id: 458          id: 459          id: 487         
+id: 488          id: 1765         
+
+Сервер: 5
+Anthoni_Capone
+
+Business:
+id: 353 Магазин 24/7 
+
+
+House:
+id: 1176         id: 1769         
+
+Сервер: 5
+Scandal_Arcteryx
+
+Business:
+id: 219 Ларек с уличной едой 
+
+
+House:
+id: 1308         
+
+Сервер: 5
+Akio_Tagashiva
+
+Business:
+id: 30  АЗС/Магазин механики 
+
+
+House:
+id: 318          id: 319          id: 320         
+id: 325          id: 1564         id: 1645        
+
+
+Сервер: 5
+Stitch_Letov
+
+Business:
+id: 9   Магазин 24/7 
+
+
+House:
+id: 255          id: 263          id: 334         
+id: 421          id: 423          id: 624         
+id: 854          id: 876          id: 1019        
+id: 1036         id: 1064         id: 1073        
+id: 1085         id: 1314         id: 1706        
+
+
+Сервер: 5
+Caymon_Crystal
+
+Business:
+id: 356 Бар     
+
+
+House:
+id: 1239         
+
+Сервер: 5
+Vadus_Morelli
+
+Business:
+id: 249 АЗС/Магазин механики 
+
+
+Сервер: 5
+Hightower_Loranved
+
+Business:
+id: 250 АЗС/Магазин механики 
+
+
+Сервер: 5
+Anton_Porshe
+
+Business:
+id: 434 Киоск   
+
+
+House:
+id: 438          
+
+Сервер: 5
+Nikky_Death
+
+Business:
+id: 36  Закусочная 
+
+
+House:
+id: 6            id: 317          id: 347         
+id: 349          id: 350          id: 356         
+id: 1433         
+
+Сервер: 5
+Ruslan_White
+
+Business:
+id: 10  Магазин 24/7 
+
+
+Сервер: 5
+Vitaliy_Gess
+
+Business:
+id: 39  Аренда транспорта 
+
+
+House:
+id: 1680         id: 1752         
+
+Сервер: 5
+Jessie_Vatutin
+
+Business:
+id: 300 Отель   
+
+
+Сервер: 5
+Max_Arab
+
+Business:
+id: 217 Ларек с уличной едой 
+
+
+Сервер: 5
+Andre_Boroda
+
+Business:
+id: 186 Ларек с уличной едой 
+
+
+Сервер: 5
+Sanya_Turbina
+
+Business:
+id: 37  Закусочная 
+
+
+Сервер: 5
+Yoshiro_Ookami
+
+Business:
+id: 50  Закусочная 
+
+
+House:
+id: 181          id: 182          id: 183         
+id: 298          id: 302          id: 1411        
+
+
+Сервер: 5
+Jesus_Nachile
+
+Business:
+id: 24  АЗС/Магазин механики 
+
+
+Сервер: 5
+Jane_Ruiz
+
+Business:
+id: 38  Закусочная 
+
+
+House:
+id: 0            id: 395          id: 511         
+id: 746          id: 878          id: 1413        
+id: 1416         id: 1494         
+
+Сервер: 5
+Vlad_Tornerro
+
+Business:
+id: 247 Нефтевышка 
+
+
+House:
+id: 1061         
+
+Сервер: 5
+Moksy_Diez
+
+Business:
+id: 82  Закусочная 
+
+
+Сервер: 5
+Moore_Deluxe
+
+Business:
+id: 176 Магазин 24/7 
+
+
+House:
+id: 283          id: 519          
+
+Сервер: 5
+Dmitriy_Nyashka
+
+Business:
+id: 52  Аренда транспорта 
+
+
+House:
+id: 256          id: 902          
+
+Сервер: 5
+Epson_Brooks
+
+Business:
+id: 167 Закусочная 
+
+
+House:
+id: 427          id: 1634         
+
+Сервер: 5
+Ivan_Hentaev
+
+Business:
+id: 209 Ларек с уличной едой 
+
+
+House:
+id: 926          id: 1114         
+
+Сервер: 5
+Bonny_Keiner
+
+Business:
+id: 142 Отель   
+
+
+Сервер: 5
+Omega_Black
+
+Business:
+id: 79  Закусочная 
+
+
+House:
+id: 463          id: 465          id: 478         
+id: 481          id: 482          id: 483         
+id: 492          id: 1773         
+
+, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null, linkPreviewOptions=null, replyParameters=null)
+2025-05-05 01:44:31 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-05-05 01:44:31 INFO  o.s.s.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+2025-05-05 01:44:31 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2025-05-05 01:44:31 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-05-05 01:44:31 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2025-05-05 01:44:31 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-05 01:44:31 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-05-05 01:44:31 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-05-05 01:49:40 INFO  org.example.App - Starting App using Java 21.0.6 with PID 55969 (/Users/alex/Desktop/java/репозитории/проекты/checker/target/classes started by alex in /Users/alex/Desktop/java/репозитории/проекты/checker)
+2025-05-05 01:49:40 INFO  org.example.App - No active profile set, falling back to 1 default profile: "default"
+2025-05-05 01:49:40 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-05 01:49:40 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 2 JPA repository interfaces.
+2025-05-05 01:49:41 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-05 01:49:41 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-05-05 01:49:41 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-05-05 01:49:41 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-05 01:49:41 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-05 01:49:41 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6ffd4c0d
+2025-05-05 01:49:41 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-05 01:49:41 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-05 01:49:41 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-05 01:49:41 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-05 01:49:41 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-05-05 01:49:42 INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2025-05-05 01:49:42 INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2025-05-05 01:49:42 INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2025-05-05 01:49:42 INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2025-05-05 01:49:42 INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2025-05-05 01:49:42 INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2025-05-05 01:49:42 INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2025-05-05 01:49:42 INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@63604641
+2025-05-05 01:49:42 INFO  o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2025-05-05 01:49:42 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2025-05-05 01:49:42 INFO  org.example.App - Started App in 2.275 seconds (process running for 2.46)
+2025-05-05 01:49:42 INFO  org.example.service.ApiTakerService - Начался опрос api 01:49:42.675815
+2025-05-05 01:49:44 INFO  org.example.service.ApiTakerService - Опросился 1 сервер
+2025-05-05 01:49:45 INFO  org.example.service.ApiTakerService - Опросился 2 сервер
+2025-05-05 01:49:46 INFO  org.example.service.ApiTakerService - Опросился 3 сервер
+2025-05-05 01:49:47 INFO  org.example.service.ApiTakerService - Опросился 4 сервер
+2025-05-05 01:49:48 INFO  org.example.service.ApiTakerService - Опросился 5 сервер
+2025-05-05 01:49:49 INFO  org.example.service.ApiTakerService - Опросился 6 сервер
+2025-05-05 01:49:49 INFO  org.example.service.ApiTakerService - Опросился 7 сервер
+2025-05-05 01:49:50 INFO  org.example.service.ApiTakerService - Опросился 8 сервер
+2025-05-05 01:49:51 INFO  org.example.service.ApiTakerService - Опросился 9 сервер
+2025-05-05 01:49:52 INFO  org.example.service.ApiTakerService - Опросился 10 сервер
+2025-05-05 01:49:53 WARN  org.example.controller.TGBot - Не удалось выполнить SendMessage(chatId=828575026, messageThreadId=null, text=Сервер: 5
+Lue_Loe
+
+Business:
+id: 296 Закусочная 
+
+
+Сервер: 5
+Lofay_Salvatore
+
+House:
+id: 306          id: 1496         id: 1497        
+id: 1498         id: 1499         id: 1500        
+id: 1501         id: 1502         id: 1503        
+
+
+Business:
+id: 185 Ларек с уличной едой 
+
+
+Сервер: 5
+Cany_Castrello
+
+House:
+id: 837          
+
+Business:
+id: 271 Закусочная 
+
+
+Сервер: 5
+Aleks_Ment
+
+House:
+id: 27           id: 128          id: 222         
+id: 348          id: 353          id: 453         
+id: 702          id: 711          id: 948         
+id: 992          id: 993          id: 1208        
+id: 1375         id: 1466         id: 1524        
+
+
+Business:
+id: 440 Электрокомпания 
+
+
+Сервер: 5
+Paolo_Marino
+
+House:
+id: 622          id: 1245         
+
+Business:
+id: 114 Закусочная 
+
+
+Сервер: 5
+Shadow_Buzz
+
+House:
+id: 440          id: 760          id: 1298        
+
+
+Business:
+id: 216 Ларек с уличной едой 
+
+
+Сервер: 5
+Kachan_Jonson
+
+House:
+id: 1337         
+
+Business:
+id: 184 Ларек с уличной едой 
+
+
+Сервер: 5
+Lucas_Deluxe
+
+Business:
+id: 298 Магазин 24/7 
+
+
+Сервер: 5
+Page_Mortan
+
+House:
+id: 1040         
+
+Business:
+id: 201 Ларек с уличной едой 
+
+
+Сервер: 5
+Jhonathan_King
+
+House:
+id: 242          
+
+Business:
+id: 58  Аренда транспорта 
+
+
+Сервер: 5
+William_Wright
+
+House:
+id: 1305         
+
+Business:
+id: 175 Магазин 24/7 
+
+
+Сервер: 5
+Barry_Legenda
+
+House:
+id: 226          id: 1095         id: 1098        
+id: 1099         id: 1100         id: 1396        
+id: 1434         id: 1435         id: 1436        
+id: 1441         id: 1445         id: 1446        
+id: 1447         id: 1566         id: 1567        
+
+
+Business:
+id: 171 Закусочная 
+
+
+Сервер: 5
+Kane_Grand
+
+Business:
+id: 78  Закусочная 
+
+
+Сервер: 5
+Serega_Bidenko
+
+House:
+id: 1361         id: 1671         
+
+Business:
+id: 105 Магазин 24/7 
+
+
+Сервер: 5
+Paracetamol_Damnedz
+
+House:
+id: 203          id: 721          id: 1491        
+id: 1568         id: 1569         
+
+Business:
+id: 23  АЗС/Магазин механики 
+
+
+Сервер: 5
+Xyrman_Mandarinov
+
+House:
+id: 307          id: 641          id: 687         
+id: 688          id: 1164         id: 1166        
+id: 1177         
+
+Business:
+id: 256 Аренда сельхоз техники 
+
+
+Сервер: 5
+John_Deen
+
+Business:
+id: 267 Ларек с уличной едой 
+
+
+Сервер: 5
+Kaguya_Shinomiya
+
+House:
+id: 2            
+
+Business:
+id: 131 Телефонная компания ЛВ 
+
+
+Сервер: 5
+Kuroko_Phantom
+
+Business:
+id: 348 Магазин 24/7 
+
+
+Сервер: 5
+Stewart_LaMonte
+
+House:
+id: 110          id: 111          id: 112         
+id: 113          id: 114          id: 115         
+id: 574          id: 594          id: 945         
+id: 1289         id: 1750         
+
+Business:
+id: 169 Закусочная 
+
+
+Сервер: 5
+Stiven_Wockeez
+
+House:
+id: 104          id: 107          id: 545         
+id: 994          id: 996          id: 1539        
+
+
+Business:
+id: 358 Закусочная 
+
+
+Сервер: 5
+Ernesto_Liberty
+
+Business:
+id: 305 Авто Сервис 
+
+
+Сервер: 5
+Alex_Chumak
+
+House:
+id: 364          id: 366          id: 368         
+id: 369          id: 370          id: 371         
+id: 373          id: 433          id: 434         
+id: 1038         id: 1492         id: 1611        
+id: 1612         
+
+Business:
+id: 437 Киоск   
+
+
+Сервер: 5
+Noah_Aenami
+
+House:
+id: 191          id: 192          id: 193         
+id: 194          id: 195          id: 196         
+id: 213          id: 499          id: 1543        
+id: 1581         
+
+Business:
+id: 294 Закусочная 
+
+
+Сервер: 5
+Decoded_Feedback
+
+House:
+id: 286          id: 1163         id: 1580        
+
+
+Business:
+id: 178 Амуниция/Тир 
+
+
+Сервер: 5
+Raymond_Infamous
+
+House:
+id: 557          id: 1374         id: 1658        
+id: 1698         id: 1701         id: 1702        
+id: 1703         id: 1704         id: 1764        
+
+
+Business:
+id: 288 АЗС/Магазин механики 
+
+
+Сервер: 5
+Ryu_Oba
+
+House:
+id: 50           id: 51           id: 675         
+id: 958          id: 972          id: 1341        
+id: 1344         id: 1547         id: 1606        
+id: 1708         id: 1710         
+
+Business:
+id: 251 АЗС/Магазин механики 
+
+
+Сервер: 5
+Tommy_Conlin
+
+House:
+id: 1368         
+
+Business:
+id: 314 Авто Сервис 
+
+
+Сервер: 5
+Nastusha_Hohotao
+
+House:
+id: 1246         id: 1259         id: 1274        
+id: 1276         id: 1278         
+
+Business:
+id: 170 Закусочная 
+
+
+Сервер: 5
+Sanctus_Spiritus
+
+House:
+id: 719          id: 1679         
+
+Business:
+id: 259 Закусочная 
+
+
+Сервер: 5
+Sub_Zeroo
+
+Business:
+id: 293 Ларек с уличной едой 
+
+
+Сервер: 5
+Shark_Erikson
+
+House:
+id: 755          
+
+Business:
+id: 109 Закусочная 
+
+
+Сервер: 5
+Marco_Grava
+
+House:
+id: 13           id: 295          id: 296         
+id: 461          id: 476          id: 644         
+id: 651          id: 653          
+
+Business:
+id: 0   Амуниция/Тир 
+
+
+Сервер: 5
+Orange_Juice
+
+House:
+id: 1661         
+
+Business:
+id: 49  Закусочная 
+
+
+Сервер: 5
+Kiss_Brooks
+
+House:
+id: 516          
+
+Business:
+id: 344 Нефтевышка 
+
+
+Сервер: 5
+Shidzho_Okuyama
+
+House:
+id: 227          id: 695          id: 701         
+id: 703          id: 756          id: 919         
+id: 1296         id: 1312         id: 1360        
+id: 1464         id: 1559         id: 1725        
+
+
+Business:
+id: 343 Нефтевышка 
+
+
+Сервер: 5
+Yuki_Aenami
+
+House:
+id: 1190         id: 1507         id: 1508        
+id: 1509         id: 1510         
+
+Business:
+id: 352 Магазин аксессуаров 
+
+
+Сервер: 5
+James_Mariachi
+
+House:
+id: 52           id: 316          id: 345         
+id: 346          id: 351          id: 352         
+id: 357          id: 514          id: 1452        
+id: 1678         id: 1732         
+
+Business:
+id: 441 Электрокомпания 
+
+
+Сервер: 5
+Pakito_LaMorte
+
+Business:
+id: 150 Отель   
+
+
+Сервер: 5
+Nata_Sharova
+
+House:
+id: 685          id: 709          id: 979         
+id: 1304         id: 1415         id: 1672        
+
+
+Business:
+id: 189 Ларек с уличной едой 
+
+
+Сервер: 5
+Grand_Blumber
+
+House:
+id: 458          id: 459          id: 487         
+id: 488          id: 1765         
+
+Business:
+id: 191 Ларек с уличной едой 
+
+
+Сервер: 5
+Anthoni_Capone
+
+House:
+id: 1176         id: 1769         
+
+Business:
+id: 353 Магазин 24/7 
+
+
+Сервер: 5
+Scandal_Arcteryx
+
+House:
+id: 1308         
+
+Business:
+id: 219 Ларек с уличной едой 
+
+
+Сервер: 5
+Akio_Tagashiva
+
+House:
+id: 318          id: 319          id: 320         
+id: 325          id: 1564         id: 1645        
+
+
+Business:
+id: 30  АЗС/Магазин механики 
+
+
+Сервер: 5
+Stitch_Letov
+
+House:
+id: 255          id: 263          id: 334         
+id: 421          id: 423          id: 624         
+id: 854          id: 876          id: 1019        
+id: 1036         id: 1064         id: 1073        
+id: 1085         id: 1314         id: 1706        
+
+
+Business:
+id: 9   Магазин 24/7 
+
+
+Сервер: 5
+Caymon_Crystal
+
+House:
+id: 1239         
+
+Business:
+id: 356 Бар     
+
+
+Сервер: 5
+Vadus_Morelli
+
+Business:
+id: 249 АЗС/Магазин механики 
+
+
+Сервер: 5
+Hightower_Loranved
+
+Business:
+id: 250 АЗС/Магазин механики 
+
+
+Сервер: 5
+Anton_Porshe
+
+House:
+id: 438          
+
+Business:
+id: 434 Киоск   
+
+
+Сервер: 5
+Nikky_Death
+
+House:
+id: 6            id: 317          id: 347         
+id: 349          id: 350          id: 356         
+id: 1433         
+
+Business:
+id: 36  Закусочная 
+
+
+Сервер: 5
+Ruslan_White
+
+Business:
+id: 10  Магазин 24/7 
+
+
+Сервер: 5
+Vitaliy_Gess
+
+House:
+id: 1680         id: 1752         
+
+Business:
+id: 39  Аренда транспорта 
+
+
+Сервер: 5
+Jessie_Vatutin
+
+Business:
+id: 300 Отель   
+
+
+Сервер: 5
+Max_Arab
+
+Business:
+id: 217 Ларек с уличной едой 
+
+
+Сервер: 5
+Andre_Boroda
+
+Business:
+id: 186 Ларек с уличной едой 
+
+
+Сервер: 5
+Sanya_Turbina
+
+Business:
+id: 37  Закусочная 
+
+
+Сервер: 5
+Yoshiro_Ookami
+
+House:
+id: 181          id: 182          id: 183         
+id: 298          id: 302          id: 1411        
+
+
+Business:
+id: 50  Закусочная 
+
+
+Сервер: 5
+Jesus_Nachile
+
+Business:
+id: 24  АЗС/Магазин механики 
+
+
+Сервер: 5
+Jane_Ruiz
+
+House:
+id: 0            id: 395          id: 511         
+id: 746          id: 878          id: 1413        
+id: 1416         id: 1494         
+
+Business:
+id: 38  Закусочная 
+
+
+Сервер: 5
+Vlad_Tornerro
+
+House:
+id: 1061         
+
+Business:
+id: 247 Нефтевышка 
+
+
+Сервер: 5
+Moksy_Diez
+
+Business:
+id: 82  Закусочная 
+
+
+Сервер: 5
+Moore_Deluxe
+
+House:
+id: 283          id: 519          
+
+Business:
+id: 176 Магазин 24/7 
+
+
+Сервер: 5
+Dmitriy_Nyashka
+
+House:
+id: 256          id: 902          
+
+Business:
+id: 52  Аренда транспорта 
+
+
+Сервер: 5
+Epson_Brooks
+
+House:
+id: 427          id: 1634         
+
+Business:
+id: 167 Закусочная 
+
+
+Сервер: 5
+Ivan_Hentaev
+
+House:
+id: 926          id: 1114         
+
+Business:
+id: 209 Ларек с уличной едой 
+
+
+Сервер: 5
+Bonny_Keiner
+
+Business:
+id: 142 Отель   
+
+
+Сервер: 5
+Omega_Black
+
+House:
+id: 463          id: 465          id: 478         
+id: 481          id: 482          id: 483         
+id: 492          id: 1773         
+
+Business:
+id: 79  Закусочная 
+
+
+, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null, linkPreviewOptions=null, replyParameters=null)
+2025-05-05 01:49:53 INFO  org.example.service.ApiTakerService - Опросился 11 сервер
+2025-05-05 01:49:54 INFO  org.example.service.ApiTakerService - Опросился 12 сервер
+2025-05-05 01:49:55 INFO  org.example.service.ApiTakerService - Опросился 13 сервер
+2025-05-05 01:49:56 INFO  org.example.service.ApiTakerService - Опросился 14 сервер
+2025-05-05 01:49:57 INFO  org.example.service.ApiTakerService - Опросился 15 сервер
+2025-05-05 01:49:58 INFO  org.example.service.ApiTakerService - Опросился 16 сервер
+2025-05-05 01:49:59 INFO  org.example.service.ApiTakerService - Опросился 17 сервер
+2025-05-05 01:50:00 INFO  org.example.service.ApiTakerService - Опросился 18 сервер
+2025-05-05 01:50:01 INFO  org.example.service.ApiTakerService - Опросился 19 сервер
+2025-05-05 01:50:02 INFO  org.example.service.ApiTakerService - Опросился 20 сервер
+2025-05-05 01:50:03 INFO  org.example.service.ApiTakerService - Опросился 21 сервер
+2025-05-05 01:50:03 INFO  org.example.service.ApiTakerService - Опросился 22 сервер
+2025-05-05 01:50:04 INFO  org.example.service.ApiTakerService - Опросился 23 сервер
+2025-05-05 01:50:05 INFO  org.example.service.ApiTakerService - Опросился 24 сервер
+2025-05-05 01:50:06 INFO  org.example.service.ApiTakerService - Опросился 25 сервер
+2025-05-05 01:50:07 INFO  org.example.service.ApiTakerService - Опросился 26 сервер
+2025-05-05 01:50:08 INFO  org.example.service.ApiTakerService - Опросился 27 сервер
+2025-05-05 01:50:09 INFO  org.example.service.ApiTakerService - Опросился 28 сервер
+2025-05-05 01:50:09 INFO  org.example.service.ApiTakerService - Опросился 29 сервер
+2025-05-05 01:50:10 INFO  org.example.service.ApiTakerService - Опросился 30 сервер
+2025-05-05 01:50:11 INFO  org.example.service.ApiTakerService - Опросился 31 сервер
+2025-05-05 01:50:11 INFO  org.example.service.ApiTakerService - Опрос api успешно завершен 01:50:11.714672
+2025-05-05 01:51:53 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-05-05 01:51:53 INFO  o.s.s.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+2025-05-05 01:51:53 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2025-05-05 01:51:53 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-05-05 01:51:53 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2025-05-05 01:51:53 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-05 01:51:53 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-05-05 01:51:53 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
