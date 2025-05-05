@@ -6,6 +6,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.example.handlers.CommandHandler;
 import org.example.model.State;
 import org.example.model.User;
+import org.example.model.util.MessagePayload;
 import org.example.service.UserService;
 import org.example.util.KeyboardUtil;
 import org.springframework.beans.factory.annotation.Value;
@@ -81,7 +82,8 @@ public class TGBot extends TelegramLongPollingBot {
             default:
                 CommandHandler commandHandler = commandHandlers.get(data);
                 if (commandHandler != null) {
-                    execute(commandHandler.handle(update, user));
+                    List<MessagePayload> handle = commandHandler.handle(update, user);
+                    executeMessageFromHandlers(handle);
                 }
         }
     }
@@ -108,14 +110,30 @@ public class TGBot extends TelegramLongPollingBot {
         List<BotApiMethod<?>> handle;
         switch (user.getState()) {
             case WAITING_NICKNAME:
-                handle = commandHandlers.get("findByOwner").handle(update, user);
-                execute(handle);
+                List<MessagePayload> findByOwner = commandHandlers.get("findByOwner").handle(update, user);
+                executeMessageFromHandlers(findByOwner);
                 break;
             case WAITING_HOUSEQ:
-                handle = commandHandlers.get("findByQuantity").handle(update, user);
-                execute(handle);
+                List<MessagePayload> findByQuantity = commandHandlers.get("findByQuantity").handle(update, user);
+                executeMessageFromHandlers(findByQuantity);
+                break;
         }
 
+    }
+
+    public void executeMessageFromHandlers(List<MessagePayload> messages) {
+        for (MessagePayload mpl : messages) {
+            String text = mpl.getText();
+            Long chatId = mpl.getChatId();
+            if ((text.length() > 4000 && mpl.isFallbackToFile()) || mpl.isSendAsFile()) {
+                sendAsFile(chatId, text);
+                continue;
+            }
+            sendMessageToUser(chatId, text);
+            if (mpl.getKeyboard() != null) {
+                sendKeyboard(chatId, mpl.getKeyboard());
+            }
+        }
     }
 
 
@@ -162,9 +180,8 @@ public class TGBot extends TelegramLongPollingBot {
             doc.setDocument(new InputFile(tmp, "message.txt"));
             execute(doc);
             tmp.delete();
-            // можно тут tmp.deleteOnExit();
         } catch (IOException | TelegramApiException ex) {
-            log.error("Не удалось отправить файл с сообщением", ex);
+            log.warn("Не удалось отправить файл с сообщением", ex);
         }
     }
 

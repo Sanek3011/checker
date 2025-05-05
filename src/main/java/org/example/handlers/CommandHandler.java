@@ -3,6 +3,7 @@ package org.example.handlers;
 import org.example.model.Property;
 import org.example.model.Type;
 import org.example.model.User;
+import org.example.model.util.MessagePayload;
 import org.telegram.telegrambots.meta.api.methods.BotApiMethod;
 import org.telegram.telegrambots.meta.api.methods.send.SendDocument;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
@@ -21,7 +22,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 public interface CommandHandler {
-    List<BotApiMethod<?>> handle(Update update, User user);
+    List<MessagePayload> handle(Update update, User user);
     String getCommandName();
 
     default SendMessage getMessageCommand(Long chatId, String text) {
@@ -96,7 +97,7 @@ public interface CommandHandler {
                 sb.append("\n");
             }
 
-            sb.append("\n"); // разделитель между владельцами
+            sb.append("\n");
         }
 
         return sb.toString();

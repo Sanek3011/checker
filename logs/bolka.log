@@ -6797,3 +6797,531 @@ id: 79  Закусочная
 2025-05-05 01:51:53 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 2025-05-05 01:51:53 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2025-05-05 01:51:53 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-05-05 02:22:39 INFO  org.example.App - Starting App using Java 21.0.6 with PID 56570 (/Users/alex/Desktop/java/репозитории/проекты/checker/target/classes started by alex in /Users/alex/Desktop/java/репозитории/проекты/checker)
+2025-05-05 02:22:39 INFO  org.example.App - No active profile set, falling back to 1 default profile: "default"
+2025-05-05 02:22:39 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-05 02:22:39 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 2 JPA repository interfaces.
+2025-05-05 02:22:39 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-05 02:22:40 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-05-05 02:22:40 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-05-05 02:22:40 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-05 02:22:40 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-05 02:22:40 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2dba05b1
+2025-05-05 02:22:40 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-05 02:22:40 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-05 02:22:40 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-05 02:22:40 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-05 02:22:40 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-05-05 02:22:41 INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2025-05-05 02:22:41 INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2025-05-05 02:22:41 INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2025-05-05 02:22:41 INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2025-05-05 02:22:41 INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2025-05-05 02:22:41 INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2025-05-05 02:22:41 INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2025-05-05 02:22:41 INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@522fdf0c
+2025-05-05 02:22:41 INFO  o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2025-05-05 02:22:41 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2025-05-05 02:22:41 INFO  org.example.App - Started App in 2.304 seconds (process running for 2.515)
+2025-05-05 02:22:41 INFO  org.example.service.ApiTakerService - Начался опрос api 02:22:41.587345
+2025-05-05 02:22:41 INFO  org.example.controller.TGBot - Отправка сообщения к 828575026
+2025-05-05 02:22:43 INFO  org.example.service.ApiTakerService - Опросился 1 сервер
+2025-05-05 02:22:44 INFO  org.example.service.ApiTakerService - Опросился 2 сервер
+2025-05-05 02:22:44 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-05-05 02:22:45 INFO  org.example.service.ApiTakerService - Опросился 3 сервер
+2025-05-05 02:22:46 INFO  org.example.service.ApiTakerService - Опросился 4 сервер
+2025-05-05 02:24:17 INFO  org.example.App - Starting App using Java 21.0.6 with PID 56603 (/Users/alex/Desktop/java/репозитории/проекты/checker/target/classes started by alex in /Users/alex/Desktop/java/репозитории/проекты/checker)
+2025-05-05 02:24:17 INFO  org.example.App - No active profile set, falling back to 1 default profile: "default"
+2025-05-05 02:24:18 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-05 02:24:18 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21 ms. Found 2 JPA repository interfaces.
+2025-05-05 02:24:18 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-05 02:24:18 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-05-05 02:24:18 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-05-05 02:24:18 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-05 02:24:18 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-05 02:24:18 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@266e9dda
+2025-05-05 02:24:18 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-05 02:24:18 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-05 02:24:18 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-05 02:24:18 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-05 02:24:18 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-05-05 02:24:20 INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2025-05-05 02:24:20 INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2025-05-05 02:24:20 INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2025-05-05 02:24:20 INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2025-05-05 02:24:20 INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2025-05-05 02:24:20 INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2025-05-05 02:24:20 INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2025-05-05 02:24:20 INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@64a009e7
+2025-05-05 02:24:20 INFO  o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2025-05-05 02:24:20 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2025-05-05 02:24:20 INFO  org.example.App - Started App in 2.528 seconds (process running for 2.698)
+2025-05-05 02:24:20 INFO  org.example.service.ApiTakerService - Начался опрос api 02:24:20.083325
+2025-05-05 02:24:21 INFO  org.example.service.ApiTakerService - Опросился 1 сервер
+2025-05-05 02:24:21 INFO  org.example.service.ApiTakerService - Опросился 2 сервер
+2025-05-05 02:24:22 INFO  org.example.service.ApiTakerService - Опросился 3 сервер
+2025-05-05 02:24:23 INFO  org.example.service.ApiTakerService - Опросился 4 сервер
+2025-05-05 02:24:23 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-05-05 02:24:24 INFO  org.example.service.ApiTakerService - Опросился 5 сервер
+2025-05-05 02:24:24 INFO  org.example.service.ApiTakerService - Опросился 6 сервер
+2025-05-05 02:41:35 INFO  org.example.App - Starting App using Java 21.0.6 with PID 56868 (/Users/alex/Desktop/java/репозитории/проекты/checker/target/classes started by alex in /Users/alex/Desktop/java/репозитории/проекты/checker)
+2025-05-05 02:41:35 INFO  org.example.App - No active profile set, falling back to 1 default profile: "default"
+2025-05-05 02:41:35 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-05 02:41:35 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21 ms. Found 2 JPA repository interfaces.
+2025-05-05 02:41:35 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-05 02:41:36 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-05-05 02:41:36 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-05-05 02:41:36 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-05 02:41:36 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-05 02:41:36 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@38883a31
+2025-05-05 02:41:36 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-05 02:41:36 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-05 02:41:36 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-05 02:41:36 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-05 02:41:36 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-05-05 02:41:37 INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2025-05-05 02:41:37 INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2025-05-05 02:41:37 INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2025-05-05 02:41:37 INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2025-05-05 02:41:37 INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2025-05-05 02:41:37 INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2025-05-05 02:41:37 INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2025-05-05 02:41:37 INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@64a009e7
+2025-05-05 02:41:37 INFO  o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2025-05-05 02:41:37 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2025-05-05 02:41:37 INFO  org.example.App - Started App in 2.598 seconds (process running for 2.797)
+2025-05-05 02:41:37 INFO  org.example.service.ApiTakerService - Начался опрос api 02:41:37.891575
+2025-05-05 02:41:39 INFO  org.example.service.ApiTakerService - Опросился 1 сервер
+2025-05-05 02:41:40 INFO  org.example.service.ApiTakerService - Опросился 2 сервер
+2025-05-05 02:41:41 INFO  org.example.service.ApiTakerService - Опросился 3 сервер
+2025-05-05 02:41:42 INFO  org.example.service.ApiTakerService - Опросился 4 сервер
+2025-05-05 02:41:42 INFO  org.example.service.ApiTakerService - Опросился 5 сервер
+2025-05-05 02:41:43 INFO  org.example.service.ApiTakerService - Опросился 6 сервер
+2025-05-05 02:41:44 INFO  org.example.controller.TGBot - Отправка сообщения к 828575026
+2025-05-05 02:41:44 INFO  org.example.service.ApiTakerService - Опросился 7 сервер
+2025-05-05 02:41:45 INFO  org.example.service.ApiTakerService - Опросился 8 сервер
+2025-05-05 02:41:45 INFO  org.example.service.ApiTakerService - Опросился 9 сервер
+2025-05-05 02:41:46 INFO  org.example.service.ApiTakerService - Опросился 10 сервер
+2025-05-05 02:41:47 INFO  org.example.service.ApiTakerService - Опросился 11 сервер
+2025-05-05 02:41:47 INFO  org.example.service.ApiTakerService - Опросился 12 сервер
+2025-05-05 02:41:48 INFO  org.example.service.ApiTakerService - Опросился 13 сервер
+2025-05-05 02:41:48 INFO  org.example.service.ApiTakerService - Опросился 14 сервер
+2025-05-05 02:41:49 INFO  org.example.service.ApiTakerService - Опросился 15 сервер
+2025-05-05 02:41:49 INFO  org.example.service.ApiTakerService - Опросился 16 сервер
+2025-05-05 02:41:50 INFO  org.example.service.ApiTakerService - Опросился 17 сервер
+2025-05-05 02:41:50 INFO  org.example.service.ApiTakerService - Опросился 18 сервер
+2025-05-05 02:41:51 INFO  org.example.service.ApiTakerService - Опросился 19 сервер
+2025-05-05 02:41:52 INFO  org.example.service.ApiTakerService - Опросился 20 сервер
+2025-05-05 02:41:52 INFO  org.example.service.ApiTakerService - Опросился 21 сервер
+2025-05-05 02:41:53 INFO  org.example.service.ApiTakerService - Опросился 22 сервер
+2025-05-05 02:41:54 INFO  org.example.service.ApiTakerService - Опросился 23 сервер
+2025-05-05 02:41:54 INFO  org.example.service.ApiTakerService - Опросился 24 сервер
+2025-05-05 02:41:55 INFO  org.example.service.ApiTakerService - Опросился 25 сервер
+2025-05-05 02:41:56 INFO  org.example.service.ApiTakerService - Опросился 26 сервер
+2025-05-05 02:41:56 INFO  org.example.service.ApiTakerService - Опросился 27 сервер
+2025-05-05 02:41:57 INFO  org.example.service.ApiTakerService - Опросился 28 сервер
+2025-05-05 02:41:58 INFO  org.example.service.ApiTakerService - Опросился 29 сервер
+2025-05-05 02:41:58 INFO  org.example.service.ApiTakerService - Опросился 30 сервер
+2025-05-05 02:41:59 INFO  org.example.service.ApiTakerService - Опросился 31 сервер
+2025-05-05 02:41:59 INFO  org.example.service.ApiTakerService - Опрос api успешно завершен 02:41:59.454254
+2025-05-05 02:42:00 INFO  org.example.controller.TGBot - Отправка сообщения к 828575026
+2025-05-05 02:42:06 INFO  org.example.controller.TGBot - Отправка сообщения к 828575026
+2025-05-05 02:42:16 INFO  org.example.controller.TGBot - Отправка сообщения к 828575026
+2025-05-05 02:42:29 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-05-05 02:42:29 INFO  o.s.s.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+2025-05-05 02:42:29 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2025-05-05 02:42:29 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-05-05 02:42:29 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2025-05-05 02:42:29 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-05 02:42:29 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-05-05 02:42:29 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-05-05 02:43:05 INFO  org.example.App - Starting App using Java 21.0.6 with PID 56913 (/Users/alex/Desktop/java/репозитории/проекты/checker/target/classes started by alex in /Users/alex/Desktop/java/репозитории/проекты/checker)
+2025-05-05 02:43:05 INFO  org.example.App - No active profile set, falling back to 1 default profile: "default"
+2025-05-05 02:43:05 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-05 02:43:05 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24 ms. Found 2 JPA repository interfaces.
+2025-05-05 02:43:05 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-05 02:43:06 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-05-05 02:43:06 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-05-05 02:43:06 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-05 02:43:06 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-05 02:43:06 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5d14e99e
+2025-05-05 02:43:06 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-05 02:43:06 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-05 02:43:06 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-05 02:43:06 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-05 02:43:06 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-05-05 02:43:07 INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2025-05-05 02:43:07 INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2025-05-05 02:43:07 INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2025-05-05 02:43:07 INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2025-05-05 02:43:07 INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2025-05-05 02:43:07 INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2025-05-05 02:43:07 INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2025-05-05 02:43:07 INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@556d8c78
+2025-05-05 02:43:08 INFO  o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2025-05-05 02:43:08 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2025-05-05 02:43:08 INFO  org.example.App - Started App in 2.698 seconds (process running for 3.099)
+2025-05-05 02:43:08 INFO  org.example.service.ApiTakerService - Начался опрос api 02:43:08.022118
+2025-05-05 02:43:09 INFO  org.example.service.ApiTakerService - Опросился 1 сервер
+2025-05-05 02:43:10 INFO  org.example.service.ApiTakerService - Опросился 2 сервер
+2025-05-05 02:43:11 INFO  org.example.service.ApiTakerService - Опросился 3 сервер
+2025-05-05 02:43:12 INFO  org.example.service.ApiTakerService - Опросился 4 сервер
+2025-05-05 02:43:24 INFO  org.example.controller.TGBot - Отправка сообщения к 828575026
+2025-05-05 02:43:25 INFO  org.example.service.ApiTakerService - Опросился 5 сервер
+2025-05-05 02:43:26 INFO  org.example.service.ApiTakerService - Опросился 6 сервер
+2025-05-05 02:43:27 INFO  org.example.service.ApiTakerService - Опросился 7 сервер
+2025-05-05 02:43:28 INFO  org.example.service.ApiTakerService - Опросился 8 сервер
+2025-05-05 02:43:29 INFO  org.example.service.ApiTakerService - Опросился 9 сервер
+2025-05-05 02:43:30 INFO  org.example.service.ApiTakerService - Опросился 10 сервер
+2025-05-05 02:43:30 INFO  org.example.service.ApiTakerService - Опросился 11 сервер
+2025-05-05 02:43:31 INFO  org.example.service.ApiTakerService - Опросился 12 сервер
+2025-05-05 02:43:32 INFO  org.example.service.ApiTakerService - Опросился 13 сервер
+2025-05-05 02:43:34 INFO  org.example.controller.TGBot - Отправка сообщения к 828575026
+2025-05-05 02:43:35 INFO  org.example.service.ApiTakerService - Опросился 14 сервер
+2025-05-05 02:43:36 INFO  org.example.service.ApiTakerService - Опросился 15 сервер
+2025-05-05 02:43:37 INFO  org.example.service.ApiTakerService - Опросился 16 сервер
+2025-05-05 02:43:38 INFO  org.example.service.ApiTakerService - Опросился 17 сервер
+2025-05-05 02:43:39 INFO  org.example.service.ApiTakerService - Опросился 18 сервер
+2025-05-05 02:43:40 INFO  org.example.service.ApiTakerService - Опросился 19 сервер
+2025-05-05 02:44:06 INFO  org.example.controller.TGBot - Отправка сообщения к 828575026
+2025-05-05 02:44:06 INFO  org.example.service.ApiTakerService - Опросился 20 сервер
+2025-05-05 02:44:07 INFO  org.example.service.ApiTakerService - Опросился 21 сервер
+2025-05-05 02:44:08 INFO  org.example.service.ApiTakerService - Опросился 22 сервер
+2025-05-05 02:44:09 INFO  org.example.service.ApiTakerService - Опросился 23 сервер
+2025-05-05 02:44:09 INFO  org.example.service.ApiTakerService - Опросился 24 сервер
+2025-05-05 02:44:10 INFO  org.example.service.ApiTakerService - Опросился 25 сервер
+2025-05-05 02:44:11 INFO  org.example.service.ApiTakerService - Опросился 26 сервер
+2025-05-05 02:44:14 INFO  org.example.controller.TGBot - Отправка сообщения к 828575026
+2025-05-05 02:44:14 INFO  org.example.service.ApiTakerService - Опросился 27 сервер
+2025-05-05 02:44:15 INFO  org.example.service.ApiTakerService - Опросился 28 сервер
+2025-05-05 02:44:16 INFO  org.example.service.ApiTakerService - Опросился 29 сервер
+2025-05-05 02:44:16 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-05-05 02:44:17 INFO  org.example.service.ApiTakerService - Опросился 30 сервер
+2025-05-05 02:44:17 INFO  org.example.service.ApiTakerService - Опросился 31 сервер
+2025-05-05 02:44:17 INFO  org.example.service.ApiTakerService - Опрос api успешно завершен 02:44:17.877751
+2025-05-05 02:44:17 INFO  o.s.s.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+2025-05-05 02:44:17 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2025-05-05 02:44:17 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-05-05 02:44:17 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2025-05-05 02:44:17 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-05 02:44:17 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-05-05 02:44:17 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-05-05 02:44:20 INFO  org.example.App - Starting App using Java 21.0.6 with PID 56945 (/Users/alex/Desktop/java/репозитории/проекты/checker/target/classes started by alex in /Users/alex/Desktop/java/репозитории/проекты/checker)
+2025-05-05 02:44:20 INFO  org.example.App - No active profile set, falling back to 1 default profile: "default"
+2025-05-05 02:44:21 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-05 02:44:21 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21 ms. Found 2 JPA repository interfaces.
+2025-05-05 02:44:21 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-05 02:44:21 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-05-05 02:44:21 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-05-05 02:44:21 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-05 02:44:21 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-05 02:44:21 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@38a4e2b0
+2025-05-05 02:44:21 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-05 02:44:21 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-05 02:44:21 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-05 02:44:21 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-05 02:44:21 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-05-05 02:44:22 INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2025-05-05 02:44:22 INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2025-05-05 02:44:22 INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2025-05-05 02:44:22 INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2025-05-05 02:44:22 INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2025-05-05 02:44:22 INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2025-05-05 02:44:22 INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2025-05-05 02:44:22 INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@522fdf0c
+2025-05-05 02:44:22 INFO  o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2025-05-05 02:44:22 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2025-05-05 02:44:22 INFO  org.example.App - Started App in 2.331 seconds (process running for 2.52)
+2025-05-05 02:44:22 INFO  org.example.service.ApiTakerService - Начался опрос api 02:44:22.807631
+2025-05-05 02:44:23 INFO  org.example.service.ApiTakerService - Опросился 1 сервер
+2025-05-05 02:44:24 INFO  org.example.service.ApiTakerService - Опросился 2 сервер
+2025-05-05 02:44:25 INFO  org.example.service.ApiTakerService - Опросился 3 сервер
+2025-05-05 02:44:26 INFO  org.example.service.ApiTakerService - Опросился 4 сервер
+2025-05-05 02:44:27 INFO  org.example.service.ApiTakerService - Опросился 5 сервер
+2025-05-05 02:44:28 INFO  org.example.service.ApiTakerService - Опросился 6 сервер
+2025-05-05 02:44:28 INFO  org.example.controller.TGBot - Отправка сообщения к 828575026
+2025-05-05 02:44:28 INFO  org.example.service.ApiTakerService - Опросился 7 сервер
+2025-05-05 02:44:29 INFO  org.example.service.ApiTakerService - Опросился 8 сервер
+2025-05-05 02:44:29 INFO  org.example.service.ApiTakerService - Опросился 9 сервер
+2025-05-05 02:44:30 INFO  org.example.service.ApiTakerService - Опросился 10 сервер
+2025-05-05 02:44:31 INFO  org.example.service.ApiTakerService - Опросился 11 сервер
+2025-05-05 02:44:31 INFO  org.example.controller.TGBot - Отправка сообщения к 828575026
+2025-05-05 02:44:31 INFO  org.example.service.ApiTakerService - Опросился 12 сервер
+2025-05-05 02:44:32 INFO  org.example.service.ApiTakerService - Опросился 13 сервер
+2025-05-05 02:44:33 INFO  org.example.service.ApiTakerService - Опросился 14 сервер
+2025-05-05 02:44:34 INFO  org.example.service.ApiTakerService - Опросился 15 сервер
+2025-05-05 02:44:34 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-05-05 02:44:34 INFO  org.example.service.ApiTakerService - Опросился 16 сервер
+2025-05-05 02:44:35 INFO  org.example.service.ApiTakerService - Опросился 17 сервер
+2025-05-05 02:44:36 INFO  org.example.service.ApiTakerService - Опросился 18 сервер
+2025-05-05 02:44:39 INFO  org.example.App - Starting App using Java 21.0.6 with PID 56960 (/Users/alex/Desktop/java/репозитории/проекты/checker/target/classes started by alex in /Users/alex/Desktop/java/репозитории/проекты/checker)
+2025-05-05 02:44:39 INFO  org.example.App - No active profile set, falling back to 1 default profile: "default"
+2025-05-05 02:44:39 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-05 02:44:39 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24 ms. Found 2 JPA repository interfaces.
+2025-05-05 02:44:39 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-05 02:44:39 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-05-05 02:44:39 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-05-05 02:44:39 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-05 02:44:39 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-05 02:44:40 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5f0f70c7
+2025-05-05 02:44:40 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-05 02:44:40 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-05 02:44:40 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-05 02:44:40 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-05 02:44:40 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-05-05 02:44:41 INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2025-05-05 02:44:41 INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2025-05-05 02:44:41 INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2025-05-05 02:44:41 INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2025-05-05 02:44:41 INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2025-05-05 02:44:41 INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2025-05-05 02:44:41 INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2025-05-05 02:44:41 INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@b1fccca
+2025-05-05 02:44:41 INFO  o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2025-05-05 02:44:41 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2025-05-05 02:44:41 INFO  org.example.App - Started App in 2.278 seconds (process running for 2.674)
+2025-05-05 02:44:41 INFO  org.example.service.ApiTakerService - Начался опрос api 02:44:41.470891
+2025-05-05 02:44:42 INFO  org.example.service.ApiTakerService - Опросился 1 сервер
+2025-05-05 02:44:43 INFO  org.example.service.ApiTakerService - Опросился 2 сервер
+2025-05-05 02:44:44 INFO  org.example.service.ApiTakerService - Опросился 3 сервер
+2025-05-05 02:44:44 INFO  org.example.service.ApiTakerService - Опросился 4 сервер
+2025-05-05 02:44:47 INFO  org.example.controller.TGBot - Отправка сообщения к 828575026
+2025-05-05 02:44:48 INFO  org.example.service.ApiTakerService - Опросился 5 сервер
+2025-05-05 02:44:49 INFO  org.example.service.ApiTakerService - Опросился 6 сервер
+2025-05-05 02:44:50 INFO  org.example.service.ApiTakerService - Опросился 7 сервер
+2025-05-05 02:44:51 INFO  org.example.service.ApiTakerService - Опросился 8 сервер
+2025-05-05 02:44:51 INFO  org.example.service.ApiTakerService - Опросился 9 сервер
+2025-05-05 02:44:52 INFO  org.example.service.ApiTakerService - Опросился 10 сервер
+2025-05-05 02:45:47 INFO  org.example.controller.TGBot - Отправка сообщения к 828575026
+2025-05-05 02:45:47 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-05-05 02:45:48 INFO  org.example.service.ApiTakerService - Опросился 11 сервер
+2025-05-05 02:45:48 INFO  org.example.service.ApiTakerService - Опросился 12 сервер
+2025-05-05 02:45:49 INFO  org.example.service.ApiTakerService - Опросился 13 сервер
+2025-05-05 02:45:49 INFO  org.example.service.ApiTakerService - Опросился 14 сервер
+2025-05-05 02:45:50 INFO  org.example.service.ApiTakerService - Опросился 15 сервер
+2025-05-05 02:45:51 INFO  org.example.service.ApiTakerService - Опросился 16 сервер
+2025-05-05 02:45:51 INFO  org.example.service.ApiTakerService - Опросился 17 сервер
+2025-05-05 02:45:52 INFO  org.example.service.ApiTakerService - Опросился 18 сервер
+2025-05-05 02:45:52 INFO  org.example.service.ApiTakerService - Опросился 19 сервер
+2025-05-05 02:45:53 INFO  org.example.service.ApiTakerService - Опросился 20 сервер
+2025-05-05 02:45:54 INFO  org.example.service.ApiTakerService - Опросился 21 сервер
+2025-05-05 02:45:54 INFO  org.example.service.ApiTakerService - Опросился 22 сервер
+2025-05-05 02:45:55 INFO  org.example.service.ApiTakerService - Опросился 23 сервер
+2025-05-05 02:45:55 INFO  org.example.service.ApiTakerService - Опросился 24 сервер
+2025-05-05 02:45:56 INFO  org.example.service.ApiTakerService - Опросился 25 сервер
+2025-05-05 02:45:56 INFO  org.example.service.ApiTakerService - Опросился 26 сервер
+2025-05-05 02:45:57 INFO  org.example.service.ApiTakerService - Опросился 27 сервер
+2025-05-05 02:45:57 INFO  org.example.service.ApiTakerService - Опросился 28 сервер
+2025-05-05 02:45:58 INFO  org.example.service.ApiTakerService - Опросился 29 сервер
+2025-05-05 02:45:59 INFO  org.example.service.ApiTakerService - Опросился 30 сервер
+2025-05-05 02:45:59 INFO  org.example.service.ApiTakerService - Опросился 31 сервер
+2025-05-05 02:45:59 INFO  org.example.service.ApiTakerService - Опрос api успешно завершен 02:45:59.911091
+2025-05-05 02:45:59 INFO  o.s.s.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+2025-05-05 02:45:59 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2025-05-05 02:45:59 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-05-05 02:45:59 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2025-05-05 02:45:59 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-05 02:45:59 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-05-05 02:45:59 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-05-05 02:46:37 INFO  org.example.App - Starting App using Java 21.0.6 with PID 56988 (/Users/alex/Desktop/java/репозитории/проекты/checker/target/classes started by alex in /Users/alex/Desktop/java/репозитории/проекты/checker)
+2025-05-05 02:46:37 INFO  org.example.App - No active profile set, falling back to 1 default profile: "default"
+2025-05-05 02:46:38 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-05 02:46:38 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 2 JPA repository interfaces.
+2025-05-05 02:46:38 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-05 02:46:38 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-05-05 02:46:38 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-05-05 02:46:38 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-05 02:46:38 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-05 02:46:38 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@44b940a2
+2025-05-05 02:46:38 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-05 02:46:38 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-05 02:46:38 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-05 02:46:38 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-05 02:46:38 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-05-05 02:46:40 INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2025-05-05 02:46:40 INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2025-05-05 02:46:40 INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2025-05-05 02:46:40 INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2025-05-05 02:46:40 INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2025-05-05 02:46:40 INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2025-05-05 02:46:40 INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2025-05-05 02:46:40 INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@39595a8
+2025-05-05 02:46:40 INFO  o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2025-05-05 02:46:40 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2025-05-05 02:46:40 INFO  org.example.App - Started App in 2.799 seconds (process running for 2.971)
+2025-05-05 02:46:40 INFO  org.example.service.ApiTakerService - Начался опрос api 02:46:40.245883
+2025-05-05 02:46:41 INFO  org.example.service.ApiTakerService - Опросился 1 сервер
+2025-05-05 02:46:42 INFO  org.example.service.ApiTakerService - Опросился 2 сервер
+2025-05-05 02:46:42 INFO  org.example.service.ApiTakerService - Опросился 3 сервер
+2025-05-05 02:46:43 INFO  org.example.service.ApiTakerService - Опросился 4 сервер
+2025-05-05 02:46:44 INFO  org.example.service.ApiTakerService - Опросился 5 сервер
+2025-05-05 02:46:45 INFO  org.example.service.ApiTakerService - Опросился 6 сервер
+2025-05-05 02:46:45 INFO  org.example.service.ApiTakerService - Опросился 7 сервер
+2025-05-05 02:46:46 INFO  org.example.service.ApiTakerService - Опросился 8 сервер
+2025-05-05 02:46:47 INFO  org.example.service.ApiTakerService - Опросился 9 сервер
+2025-05-05 02:46:47 INFO  org.example.service.ApiTakerService - Опросился 10 сервер
+2025-05-05 02:46:48 INFO  org.example.service.ApiTakerService - Опросился 11 сервер
+2025-05-05 02:46:48 INFO  org.example.service.ApiTakerService - Опросился 12 сервер
+2025-05-05 02:46:49 INFO  org.example.service.ApiTakerService - Опросился 13 сервер
+2025-05-05 02:46:50 INFO  org.example.service.ApiTakerService - Опросился 14 сервер
+2025-05-05 02:46:50 INFO  org.example.service.ApiTakerService - Опросился 15 сервер
+2025-05-05 02:46:51 INFO  org.example.service.ApiTakerService - Опросился 16 сервер
+2025-05-05 02:46:52 INFO  org.example.service.ApiTakerService - Опросился 17 сервер
+2025-05-05 02:46:53 INFO  org.example.service.ApiTakerService - Опросился 18 сервер
+2025-05-05 02:46:53 INFO  org.example.service.ApiTakerService - Опросился 19 сервер
+2025-05-05 02:46:54 INFO  org.example.service.ApiTakerService - Опросился 20 сервер
+2025-05-05 02:46:55 INFO  org.example.service.ApiTakerService - Опросился 21 сервер
+2025-05-05 02:46:55 INFO  org.example.service.ApiTakerService - Опросился 22 сервер
+2025-05-05 02:46:56 INFO  org.example.service.ApiTakerService - Опросился 23 сервер
+2025-05-05 02:46:57 INFO  org.example.service.ApiTakerService - Опросился 24 сервер
+2025-05-05 02:46:58 INFO  org.example.service.ApiTakerService - Опросился 25 сервер
+2025-05-05 02:46:59 INFO  org.example.service.ApiTakerService - Опросился 26 сервер
+2025-05-05 02:46:59 INFO  org.example.service.ApiTakerService - Опросился 27 сервер
+2025-05-05 02:47:00 INFO  org.example.service.ApiTakerService - Опросился 28 сервер
+2025-05-05 02:47:01 INFO  org.example.service.ApiTakerService - Опросился 29 сервер
+2025-05-05 02:47:02 INFO  org.example.service.ApiTakerService - Опросился 30 сервер
+2025-05-05 02:47:02 INFO  org.example.controller.TGBot - Отправка сообщения к 828575026
+2025-05-05 02:47:03 INFO  org.example.service.ApiTakerService - Опросился 31 сервер
+2025-05-05 02:47:03 INFO  org.example.service.ApiTakerService - Опрос api успешно завершен 02:47:03.186487
+2025-05-05 02:48:19 INFO  org.example.controller.TGBot - Отправка сообщения к 828575026
+2025-05-05 02:48:22 INFO  org.example.controller.TGBot - Отправка сообщения к 828575026
+2025-05-05 02:48:28 INFO  org.example.controller.TGBot - Отправка сообщения к 828575026
+2025-05-05 02:48:35 INFO  org.example.controller.TGBot - Отправка сообщения к 828575026
+2025-05-05 02:51:01 INFO  org.example.controller.TGBot - Отправка сообщения к 828575026
+2025-05-05 02:51:08 INFO  org.example.controller.TGBot - Отправка сообщения к 828575026
+2025-05-05 02:52:29 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-05-05 02:52:29 INFO  o.s.s.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+2025-05-05 02:52:29 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2025-05-05 02:52:29 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-05-05 02:52:29 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2025-05-05 02:52:29 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-05 02:52:29 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-05-05 02:52:29 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-05-05 02:52:31 INFO  org.example.App - Starting App using Java 21.0.6 with PID 57091 (/Users/alex/Desktop/java/репозитории/проекты/checker/target/classes started by alex in /Users/alex/Desktop/java/репозитории/проекты/checker)
+2025-05-05 02:52:31 INFO  org.example.App - No active profile set, falling back to 1 default profile: "default"
+2025-05-05 02:52:31 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-05 02:52:31 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 2 JPA repository interfaces.
+2025-05-05 02:52:31 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-05 02:52:31 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-05-05 02:52:31 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-05-05 02:52:31 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-05 02:52:31 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-05 02:52:31 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2b79c8ff
+2025-05-05 02:52:31 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-05 02:52:31 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-05 02:52:32 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-05 02:52:32 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-05 02:52:32 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-05-05 02:52:33 INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2025-05-05 02:52:33 INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2025-05-05 02:52:33 INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2025-05-05 02:52:33 INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2025-05-05 02:52:33 INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2025-05-05 02:52:33 INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2025-05-05 02:52:33 INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2025-05-05 02:52:33 INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@556d8c78
+2025-05-05 02:52:33 INFO  o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2025-05-05 02:52:33 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2025-05-05 02:52:33 INFO  org.example.App - Started App in 2.899 seconds (process running for 3.303)
+2025-05-05 02:52:33 INFO  org.example.service.ApiTakerService - Начался опрос api 02:52:33.610610
+2025-05-05 02:52:35 INFO  org.example.service.ApiTakerService - Опросился 1 сервер
+2025-05-05 02:52:35 INFO  org.example.service.ApiTakerService - Опросился 2 сервер
+2025-05-05 02:52:36 INFO  org.example.service.ApiTakerService - Опросился 3 сервер
+2025-05-05 02:52:37 INFO  org.example.service.ApiTakerService - Опросился 4 сервер
+2025-05-05 02:52:38 INFO  org.example.service.ApiTakerService - Опросился 5 сервер
+2025-05-05 02:52:39 INFO  org.example.service.ApiTakerService - Опросился 6 сервер
+2025-05-05 02:52:40 INFO  org.example.service.ApiTakerService - Опросился 7 сервер
+2025-05-05 02:52:40 INFO  org.example.service.ApiTakerService - Опросился 8 сервер
+2025-05-05 02:52:41 INFO  org.example.service.ApiTakerService - Опросился 9 сервер
+2025-05-05 02:52:42 INFO  org.example.service.ApiTakerService - Опросился 10 сервер
+2025-05-05 02:52:42 INFO  org.example.service.ApiTakerService - Опросился 11 сервер
+2025-05-05 02:52:43 INFO  org.example.service.ApiTakerService - Опросился 12 сервер
+2025-05-05 02:52:44 INFO  org.example.service.ApiTakerService - Опросился 13 сервер
+2025-05-05 02:52:44 INFO  org.example.service.ApiTakerService - Опросился 14 сервер
+2025-05-05 02:52:45 INFO  org.example.service.ApiTakerService - Опросился 15 сервер
+2025-05-05 02:52:46 INFO  org.example.service.ApiTakerService - Опросился 16 сервер
+2025-05-05 02:52:46 INFO  org.example.service.ApiTakerService - Опросился 17 сервер
+2025-05-05 02:52:47 INFO  org.example.service.ApiTakerService - Опросился 18 сервер
+2025-05-05 02:52:48 INFO  org.example.service.ApiTakerService - Опросился 19 сервер
+2025-05-05 02:52:48 INFO  org.example.service.ApiTakerService - Опросился 20 сервер
+2025-05-05 02:52:49 INFO  org.example.service.ApiTakerService - Опросился 21 сервер
+2025-05-05 02:52:50 INFO  org.example.service.ApiTakerService - Опросился 22 сервер
+2025-05-05 02:52:50 INFO  org.example.service.ApiTakerService - Опросился 23 сервер
+2025-05-05 02:52:51 INFO  org.example.service.ApiTakerService - Опросился 24 сервер
+2025-05-05 02:52:52 INFO  org.example.service.ApiTakerService - Опросился 25 сервер
+2025-05-05 02:52:52 INFO  org.example.service.ApiTakerService - Опросился 26 сервер
+2025-05-05 02:52:53 INFO  org.example.service.ApiTakerService - Опросился 27 сервер
+2025-05-05 02:52:54 INFO  org.example.service.ApiTakerService - Опросился 28 сервер
+2025-05-05 02:52:54 INFO  org.example.service.ApiTakerService - Опросился 29 сервер
+2025-05-05 02:52:55 INFO  org.example.service.ApiTakerService - Опросился 30 сервер
+2025-05-05 02:52:56 INFO  org.example.service.ApiTakerService - Опросился 31 сервер
+2025-05-05 02:52:56 INFO  org.example.service.ApiTakerService - Опрос api успешно завершен 02:52:56.264782
+2025-05-05 02:53:03 INFO  org.example.controller.TGBot - Отправка сообщения к 828575026
+2025-05-05 02:54:00 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=57s361ms).
+2025-05-05 02:54:24 INFO  org.example.controller.TGBot - Отправка сообщения к 828575026
+2025-05-05 02:55:04 INFO  org.example.controller.TGBot - Отправка сообщения к 828575026
+2025-05-05 02:55:13 INFO  org.example.controller.TGBot - Отправка сообщения к 828575026
+2025-05-05 02:56:31 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-05-05 02:56:31 INFO  o.s.s.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+2025-05-05 02:56:31 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2025-05-05 02:56:31 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-05-05 02:56:31 INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2025-05-05 02:56:31 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-05 02:56:31 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-05-05 02:56:31 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

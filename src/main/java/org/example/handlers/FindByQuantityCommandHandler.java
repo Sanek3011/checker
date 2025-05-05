@@ -1,15 +1,14 @@
 package org.example.handlers;
 
-import jakarta.persistence.Column;
 import lombok.RequiredArgsConstructor;
 import org.example.model.Property;
 import org.example.model.State;
 import org.example.model.Type;
 import org.example.model.User;
+import org.example.model.util.MessagePayload;
 import org.example.service.PropertyService;
 import org.example.service.UserService;
 import org.springframework.stereotype.Component;
-import org.telegram.telegrambots.meta.api.methods.BotApiMethod;
 import org.telegram.telegrambots.meta.api.objects.Update;
 
 import java.util.ArrayList;
@@ -24,28 +23,30 @@ public class FindByQuantityCommandHandler implements CommandHandler {
 
 
     @Override
-    public List<BotApiMethod<?>> handle(Update update, User user) {
+    public List<MessagePayload> handle(Update update, User user) {
         Long chatId = getChatId(update);
         switch (user.getState()) {
             case NO:
                 userService.updateUserState(chatId, State.WAITING_HOUSEQ);
-                return List.of(getMessageCommand(chatId, info));
+                return List.of(new MessagePayload(chatId, info, null, false, false));
             case WAITING_HOUSEQ:
                 try {
                     String text = update.getMessage().getText();
                     String[] tmp = text.split(" ");
                     if (tmp.length != 5) {
-                        return List.of(getMessageCommand(chatId, "Некорректный ввод. Для выхода введите /quit"));
+                        return List.of(new MessagePayload(chatId, "Некорректный ввод. Для выхода введите /quit", null, false, false));
                     }
                     List<Property> properties = propertyHandler(tmp);
                     if (properties.isEmpty()) {
                         userService.updateUserState(chatId, State.NO);
-                        return List.of(getMessageCommand(chatId, "Игроков не найдено"));
+                        return List.of(new MessagePayload(chatId, "Игроков не найдено", null, false, false));
                     }
                     userService.updateUserState(chatId, State.NO);
-                    return List.of(getMessageCommand(chatId, formatPropertyInfo(properties)));
+                    return List.of(new MessagePayload(chatId, formatPropertyInfo(properties), null, true, false));
                 } catch (Exception e) {
-                    return List.of(getMessageCommand(chatId, "Некорректный ввод. Для выхода введите /quit"));
+                    e.printStackTrace();
+                    return List.of(new MessagePayload(chatId, "Некорректный ввод. Для выхода введите /quit", null, false, false));
+
                 }
 
         }
@@ -67,10 +68,10 @@ public class FindByQuantityCommandHandler implements CommandHandler {
                 }
             } else if ("0".equals(tmp[3]) && !"0".equals(tmp[1])) {
                 int quantity = Integer.parseInt(tmp[1]);
-                if (!"0".equals(tmp[2])) {
+                if ("0".equals(tmp[2])) {
                     return propertyService.getPropertiesByQuantityAndType(server, Type.House, quantity);
                 } else {
-                    List<Integer> promList = getProm(tmp[4]);
+                    List<Integer> promList = getProm(tmp[2]);
                     return propertyService.getPropertiesListByTypeServerPromAndCount(server, Type.House, promList.get(0), promList.get(1), quantity);
                 }
             }
