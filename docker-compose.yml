@@ -1,0 +1,29 @@
+services:
+  checker-db:
+    image: postgres:latest
+    container_name: checker-db
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_DB: checkerDB
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres777!
+    ports:
+      - "5433:5432"
+
+  checker:
+    build:
+      context: .   # Путь к директории с Dockerfile
+    container_name: checker-bot
+    volumes:
+      - ./logs:/app/logs
+    ports:
+      - "8083:8083"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://checker-db:5432/checkerDB
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: postgres777!
+    depends_on:
+      - checker-db
+volumes:
+  postgres-data:

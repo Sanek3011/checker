@@ -25,6 +25,20 @@ public interface CommandHandler {
     List<MessagePayload> handle(Update update, User user);
     String getCommandName();
 
+    default String formatResult(List<Property> properties) {
+        StringBuilder sb = new StringBuilder();
+        for (Property property : properties){
+            sb.append(property.getKey().getPropertyId()).append(" ").append(property.getOwner());
+            if (property.getKey().getType().equals(Type.Business)) {
+                sb.append(" ").append(property.getName());
+            }else{
+                sb.append(" ").append("HOUSE");
+            }
+            sb.append("\n");
+        }
+        return sb.toString();
+    }
+
     default SendMessage getMessageCommand(Long chatId, String text) {
         return SendMessage.builder()
                 .chatId(chatId)
@@ -49,7 +63,9 @@ public interface CommandHandler {
                 .build();
     }
     default String formatPropertyInfo(List<Property> properties) {
-        // Группируем по владельцу
+        if (properties.isEmpty()) {
+            return "Имущества не найдено";
+        }
         Map<String, List<Property>> byOwner = properties.stream()
                 .collect(Collectors.groupingBy(Property::getOwner, HashMap::new, Collectors.toList()));
 

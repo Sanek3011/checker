@@ -7,13 +7,19 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;
 import lombok.AccessLevel;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import lombok.experimental.FieldDefaults;
+import org.hibernate.annotations.DynamicUpdate;
+import org.hibernate.annotations.SelectBeforeUpdate;
 
 
 @FieldDefaults(level = AccessLevel.PRIVATE)
 @JsonIgnoreProperties(ignoreUnknown = true)
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
 
 @AttributeOverrides({
         @AttributeOverride(name="key.propertyId", column=@Column(name="property_id")),
@@ -44,7 +50,7 @@ public class Property {
         int id = getKey().getPropertyId();
         String label = String.format("id: %-4d", id);
         if (Boolean.TRUE.equals(isAuction)) {
-            label += "АУК";
+            label += "[АУКЦИОН]";
         }
         if (key.getType().equals(Type.Business)) {
             label += name;

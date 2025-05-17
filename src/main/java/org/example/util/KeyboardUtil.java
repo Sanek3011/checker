@@ -10,7 +10,7 @@ import java.util.List;
 public class KeyboardUtil {
 
     private static final List<List<InlineKeyboardButton>> MENU_BUTTONS = List.of(
-            List.of(createButton("Гайд по быстрому доступу", "getInfo")),
+            List.of(createButton("Информация об аукционах", "getAuctionInfo")),
             List.of(createButton("По владельцу", "findByOwner"),
                     createButton("По промежутку", "findByInterval")),
             List.of(createButton("По кол-ву", "findByQuantity")));

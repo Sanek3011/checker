@@ -33,7 +33,7 @@ public class FindByOwnerCommandHandler implements CommandHandler{
                 String text = update.getMessage().getText();
                 String[] tmp = text.split(" ");
                 if (tmp.length != 2) {
-                    return List.of(new MessagePayload(chatId, "Некорректный ввод. Для выхода /quit", null, false, false));
+                    throw new NumberFormatException();
                 }
                 try {
                     List<Property> allPropertiesByNickAndServer = propertyService.getAllPropertiesByNickAndServer(tmp[0], Integer.parseInt(tmp[1]));

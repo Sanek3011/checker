@@ -8,6 +8,7 @@ import org.example.util.KeyboardUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.web.ServerProperties;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.scheduling.annotation.EnableScheduling;
@@ -36,8 +37,6 @@ public class App
     }
 
     public void test(PropertyService service) {
-        System.out.println();
-        System.out.println(service.getPropertiesListByTypeServerPromAndCount(5,Type.House,
-                40, 45,  2));
+
     }
 }

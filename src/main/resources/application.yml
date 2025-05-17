@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/checker
+    url: jdbc:postgresql://checker-db:5432/checkerDB
     username: postgres
-    password: postgres
+    password: postgres777!
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
@@ -14,11 +14,17 @@ spring:
       hibernate:
         format_sql: true
         dialect: org.hibernate.dialect.PostgreSQLDialect
+        jdbc:
+          batch_size: 1000
+          order_inserts: true
+          order_updates: true
+          generate_statistics: false
+
 
 telegram:
   bot:
-    username: Arizona Helper
-    token: 8093397224:AAHd2F77_4RRImaEXnkmF2UrCgNtUcmUmWQ
+    username:
+    token:
 
 server:
   port: 8080

@@ -34,7 +34,7 @@ public class FindByQuantityCommandHandler implements CommandHandler {
                     String text = update.getMessage().getText();
                     String[] tmp = text.split(" ");
                     if (tmp.length != 5) {
-                        return List.of(new MessagePayload(chatId, "Некорректный ввод. Для выхода введите /quit", null, false, false));
+                        throw new RuntimeException();
                     }
                     List<Property> properties = propertyHandler(tmp);
                     if (properties.isEmpty()) {
@@ -74,8 +74,26 @@ public class FindByQuantityCommandHandler implements CommandHandler {
                     List<Integer> promList = getProm(tmp[2]);
                     return propertyService.getPropertiesListByTypeServerPromAndCount(server, Type.House, promList.get(0), promList.get(1), quantity);
                 }
+            }else{
+                int quantityH = Integer.parseInt(tmp[1]);
+                List<Integer> promH = getProm(tmp[2]);
+                int promH1 = 0;
+                int promH2 = 2500;
+                if (!promH.isEmpty()){
+                    promH1 = promH.get(0);
+                    promH2 = promH.get(1);
+                }
+                int quantityB = Integer.parseInt(tmp[3]);
+                List<Integer> promB = getProm(tmp[4]);
+                int promB1 = 0;
+                int promB2 = 500;
+                if (!promB.isEmpty()){
+                    promB1 = promB.get(0);
+                    promB2 = promB.get(1);
+                }
+                return propertyService.getAllPropertiesByQuantityAndPromDouble(server, quantityH, promH1, promH2, quantityB, promB1, promB2);
             }
-            return List.of();
+
 
         } catch (NumberFormatException e) {
             throw new RuntimeException();
@@ -94,8 +112,8 @@ public class FindByQuantityCommandHandler implements CommandHandler {
             result.add(prom1);
             result.add(prom2);
             return result;
-        } catch (NumberFormatException e) {
-            throw new RuntimeException();
+        } catch (Exception e) {
+            return List.of();
         }
     }
 

@@ -93,7 +93,7 @@ public class TGBot extends TelegramLongPollingBot {
         String text = update.getMessage().getText();
 
         User user = userService.getUserByTgId(chatId);
-        if ("/start".equals(text) && user == null) {
+        if ("/start".equals(text) || user == null) {
             userService.saveUser(chatId);
             sendMessageToUser(chatId, "Успешно зарегистрирован");
         }
@@ -107,7 +107,6 @@ public class TGBot extends TelegramLongPollingBot {
     }
 
     private void handleState(Update update, User user) {
-        List<BotApiMethod<?>> handle;
         switch (user.getState()) {
             case WAITING_NICKNAME:
                 List<MessagePayload> findByOwner = commandHandlers.get("findByOwner").handle(update, user);
@@ -116,6 +115,14 @@ public class TGBot extends TelegramLongPollingBot {
             case WAITING_HOUSEQ:
                 List<MessagePayload> findByQuantity = commandHandlers.get("findByQuantity").handle(update, user);
                 executeMessageFromHandlers(findByQuantity);
+                break;
+            case WAITING_INTERVAL:
+                List<MessagePayload> findByInterval = commandHandlers.get("findByInterval").handle(update, user);
+                executeMessageFromHandlers(findByInterval);
+                break;
+            case WAITING_SERVER:
+                List<MessagePayload> getAuctionInfo = commandHandlers.get("getAuctionInfo").handle(update, user);
+                executeMessageFromHandlers(getAuctionInfo);
                 break;
         }
 
